@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "před 1 hodinou"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "před 1 minutou"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "Přerušit stahování"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "Zrušit kontrolu, této stránce důvěřuji."
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "K tomuto formuláři přistupujete poprvé.\nZero Phishing jej zkontroluje pouze jednou."
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "Přístup k souboru byl zablokován."
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "Adresa stránky je podezřelá."
+   },
+   "LOCALE_AGO": {
+      "message": "před"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "Čekání na kontrolu souboru"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "Blokováno"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Blokováno pomocí Zero Phishing"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "Pomozte mi změnit heslo"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "Stránka má podezřelé phishingové vlastnosti."
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "Odstraňování dokončeno"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "Můžete tuto kartu zavřít a pokračovat v práci. \u003Cbr>Pokud se vám tato zpráva zobrazila nedopatřením,&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "Shromažďovat protokoly"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "Nelze se spojit se serverem."
+   },
+   "LOCALE_DAYS": {
+      "message": "dnů"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "Toto znovu nezobrazovat"
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": "Stažený soubor je škodlivý."
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "Stahování souboru"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "Stahování zrušeno"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "Chyba: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "Chyba při získávání původního souboru."
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "Čištění souboru selhalo"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "Nepodařilo se stáhnout soubor."
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "Kontrola souboru selhala"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "Nahrávání souborů ke kontrole selhalo."
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "Původní soubor stažen"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Soubor přesahuje maximální velikost pro kontrolu."
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "Soubor je chráněn heslem"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "Soubor je chráněn heslem a proto je zakázaný."
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Soubor může být rizikový, protože přesahuje maximální velikost pro kontrolu."
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "Typ souboru je zakázaný."
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "Ze souboru byly odstraněny potenciálně škodlivé prvky."
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "Soubor byl převeden do PDF."
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "Na základě zásad společnosti byl soubor převeden do PDF za účelem odstranění bezpečnostních rizik."
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "Kontrola souboru dokončena."
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "Získat originál"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "Skrýt podrobnosti"
+   },
+   "LOCALE_HOURS": {
+      "message": "hodin"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "Chcete-li, aby váš účet zůstal zabezpečený a přístupný, měli byste\u003Cbr>\u003Cb>okamžitě změnit své firemní heslo.\u003C/b>"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "Služba kontroly není dostupná."
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "Je vyžadována instalace opravy na serveru, více v sk108695."
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "Klíč pro API je neplatný, zkontrolujte své předplatné."
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "minulý týden"
+   },
+   "LOCALE_LOADING": {
+      "message": "Načítání"
+   },
+   "LOCALE_MINUTES": {
+      "message": "minut"
+   },
+   "LOCALE_NOW": {
+      "message": "Nyní"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "Nenalezena žádná stahování"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "Není konfigurován žádný server."
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "Nebyly nalezeny žádné hrozby."
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "Off-line stránka požaduje důvěrné osobní údaje."
+   },
+   "LOCALE_OPTIONS": {
+      "message": "Možnosti"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "Vaše rozšíření je spravováno dálkově."
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "Licence je platná"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "Původní soubor je škodlivý."
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "Původní soubor je škodlivý a nelze k němu získat přístup."
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "Původní soubor by zablokován."
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "Původní soubor bude stažen, jakmile bude dokončena kontrola souboru."
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "Kontrola splněna"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "Vaše firemní heslo (používáno pro \u003Cspan id='cor'>\u003C/span>) bylo právě odhaleno nefiremní stránce\u003Cspan id='non'>\u003C/span>.\u003Cbr> Používání firemních údajů na jiných stránkách je riskantní a zakázané."
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "Firemní heslo odhaleno"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "Chcete-li získat přístup k reálné stránce, doporučujeme použít vyhledávací web.\u003Cbr>Chápete-li rizika, můžete \u003Ca id='continueLink' href='#'>navštívit tuto nakaženou stránku.\u003C/a>\u003Cbr> Tato stránka bude zkontrolována."
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "Podrobnosti"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp>Tato phishingová stránka se může \u003Cb>vydávat\u003C/b> za\u003Cb id='siteDomain'> jinou stránku\u003C/b>.\u003C/p>\u003Cp>\u003Ca href='http://en.wikipedia.org/wiki/Phishing'>Phishingové stránky\u003C/a> se vás snaží obelstít a \u003Cb>ukrást vaše údaje\u003C/b>\u003Cbr> (např. hesla nebo kreditní karty).\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "Není-li toto správně,"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "Reference"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Protect from identity theft by phishing sites."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "Phishing je podvodná technika používaná k získávání citlivých údajů, jako jsou hesla, čísla kreditních karet apod., prostřednictvím stránky, která se vydává za důvěryhodnou webovou stránku. ZoneAlarm Anti-Phishing zkontroluje webové stránky ještě předtím, než vás nechá zadat jakékoliv osobní údaje a upozorní vás, zda se jedná o pravou webovou stránku nebo o pokus o phishingový útok. Výrazně doporučujeme ponechat ZoneAlarm Anti-Phishing povolený, abyste se zbytečně nevystavovali phishingovým útokům."
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "odešlete hlášení"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "odešlete hlášení a pokračujte."
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "Název"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "Pozor! Byla zablokována podvodná stránka!"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "Kontaktujte správce"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "Na základě zásad společnosti byly ze souboru odstraněny potenciálně škodlivé prvky."
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": ". "
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "Kvóta předplatného vypršela"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "Odebrat stránku ze seznamu důvěryhodných stránek"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "Nahlásit, že tato webová stránka nepožadovala důvěrné osobní údaje."
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "Stránka je klasifikována jako \u003Ci>škodlivá/phishing\u003C/i>."
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "Stránka se podobá stránce %alleged_domain%."
+   },
+   "LOCALE_RETRY": {
+      "message": "Zkusit znovu"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Uložit soubor bez Threat Extraction"
+   },
+   "LOCALE_SCANNING": {
+      "message": "Kontrola"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Kontrola pomocí Zero Phishing"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "Kontrola hrozeb v souboru"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "Kontrola dokončena"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "Zkontrolovat stránku"
+   },
+   "LOCALE_SECONDS": {
+      "message": "sekund"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "Bezpečné stahování…"
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "Odeslat zpětnou vazbu"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "odešlete hlášení a pokračujte."
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "Server neodpověděl před vypršením limitu."
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "Server vrátil neočekávanou odpověď."
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "Zobrazit v adresáři"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "Zobrazit méně"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "Zobrazit více"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "Instalace úspěšná"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Check Point SandBlast Agent for Browsers"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "Vezměte mě na zabezpečenou verzi této stránky."
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "Zkuste to prosím znovu, pouze pokud této stránce věříte"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "Tato stránka je velmi nová nebo zcela neznámá."
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "Nezabezpečená webová stránka požaduje důvěrné osobní údaje."
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "Pozor! Jakékoliv zde (nešifrovaná webová stránka) poskytnuté informace mohou zobrazit jiné strany."
+   },
+   "LOCALE_USED_IN": {
+      "message": "používáno pro"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "Portál UserCheck není přístupný."
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "Použít výchozí heslo"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Ověřeno pomocí Zero Phishing"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "Zobrazit soubor"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "Pozor! Používáte běžné slabé heslo."
+   },
+   "LOCALE_WEEKS": {
+      "message": "týdny/týdnů"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "včera"
+   }
+}

@@ -1,0 +1,39 @@
+{
+   "checksum": "f21d84aa357bef985f16c1520e28fa03",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13181045027666675",
+            "id": "5",
+            "meta_info": {
+               "last_visited_desktop": "13181045217322425"
+            },
+            "name": "JS Bin - Collaborative JavaScript Debugging",
+            "type": "url",
+            "url": "https://jsbin.com/jecohey/edit?js,console"
+         } ],
+         "date_added": "13181040656777987",
+         "date_modified": "13181045027666675",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13181040656778018",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13181040656778019",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "há 1 hora"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "há 1 minuto"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "Abortar download"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "Abortar análise. Eu confio neste site."
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "Primeiro acesso a este formulário.\nZero Phishing vai realizar a análise apenas uma vez."
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "O acesso ao arquivo foi bloqueado"
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "O endereço do site é suspeito"
+   },
+   "LOCALE_AGO": {
+      "message": "atrás"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "Aguardando inspeção do arquivo"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "Bloqueado"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Bloqueado pelo Zero Phishing"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "Necessito de ajuda para mudar a palavra-passe"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "O site possui características de phishing suspeitas"
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "Eliminação concluída"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "Pode fechar esta aba e continuar a trabalhar.\u003Cbr>Se recebeu esta mensagem por erro,&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "Coletar registros de eventos"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "Não foi possível contatar o servidor"
+   },
+   "LOCALE_DAYS": {
+      "message": "dias"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "Não mostrar isto novamente"
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": "Entre em contato com o seu administrador"
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "Fazendo download do arquivo"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "Download cancelado"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "Erro: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "Erro ao obter arquivo original"
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "Falha na limpeza do arquivo"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "Falha ao realizar download do arquivo"
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "Falha na inspeção do arquivo"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "Falha no upload do arquivo para inspeção"
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "Download do arquivo original completo"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "O arquivo excede o tamanho máximo de inspeção"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "O arquivo é protegido por senha"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "O arquivo é protegido por senha e é, portanto, proibido"
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "O arquivo pode conter riscos, pois excede o tamanho máximo de inspeção"
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "Tipo de arquivo proibido"
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "Elementos potencialmente maliciosos foram removidos do arquivo"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "O arquivo foi convertido em PDF"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "Com base na política da empresa, o arquivo foi convertido em PDF para remover riscos de segurança"
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "Análise do arquivo completa"
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "Obter original"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "Ocultar detalhes"
+   },
+   "LOCALE_HOURS": {
+      "message": "horas"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "Para manter sua conta segura e acessível,\u003Cbr>\u003Cb>troque imediatamente sua senha corporativa.\u003C/b>"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "Serviço de inspeção indisponível"
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "É necessária a instalação do hotfix no servidor, ver sk108695"
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "Chave API inválida, por favor verifique o seu registro"
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "semana passada"
+   },
+   "LOCALE_LOADING": {
+      "message": "A carregar"
+   },
+   "LOCALE_MINUTES": {
+      "message": "minutos"
+   },
+   "LOCALE_NOW": {
+      "message": "Agora"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "Nenhum download encontrado"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "Nenhum servidor configurado"
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "Nenhuma ameaça foi encontrada"
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "Página offline a solicitar dados sensíveis"
+   },
+   "LOCALE_OPTIONS": {
+      "message": "Opções"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "Sua extensão está a ser gerida remotamente."
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "Licença inválida"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "O arquivo transferido é malicioso"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "O arquivo original é malicioso e não pode ser acedido"
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "Arquivo original foi bloqueado"
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "Download do arquivo original será realizado assim que a inspeção do arquivo estiver completa"
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "Análise efetuada"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "A sua senha corporativa (utilizado em \u003Cspan id='cor'>\u003C/span>) foi exposta a um site não corporativo\u003Cspan id='non'>\u003C/span>.\u003Cbr> A utilização das suas credenciais corporativas em outros sites é arriscado e proibido"
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "Senha Corporativa Exposta"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "Para aceder ao site real, recomenda-se utilizar uma ferramenta de busca\u003Cbr>Se você compreende os riscos, poderá \u003Ca id='continueLink' href='#'>visitar este site infectado.\u003C/a>\u003Cbr>Esta ação será monitorizada."
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "Detalhes"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp>Este site de phishing pode \u003Cb>se parecer\u003C/b> com \u003Cb id='siteDomain'>outro site\u003C/b>.\u003C/p>\u003Cp>\u003Ca href='http://en.wikipedia.org/wiki/Phishing'>Sites de phishing\u003C/a> tentam enganá-lo para \u003Cb>roubar as suas informações\u003C/b>\u003Cbr>(por exemplo, senhas ou cartões de crédito).\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "Se esta informação estiver incorreta,"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "Referência"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Protect from identity theft by phishing sites."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "Phishing é uma tentativa fraudulenta de obter informações confidenciais como nomes de usuário, senhas e informações de cartão de crédito, apresentando-se como um site de confiança. O ZoneAlarm Anti-Phishing realizará a análise dos sites antes de permitir que você insira qualquer informação pessoal e irá avisá-lo se o site é genuíno ou uma tentativa de phishing. Recomendamos firmemente que você mantenha o ZoneAlarm Anti-Phishing habilitado para evitar a exposição a ataques por phishing"
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "envie um relatório"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "envie um relatório e continue"
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "Título"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "Cuidado! Site fraudulento bloqueado"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "Entre em contato com seu administrador"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "Com base na política da empresa, elementos potencialmente maliciosos foram removidos deste arquivo"
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": ". "
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "A Subscrição de cota expirou"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "Remover site de sites de confiança"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "Comunicar que este site não solicitou dados sensíveis"
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "O site está classificado como \u003Ci>Malicioso/Phishing\u003C/i>"
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "Semelhança das barras do site com %alleged_domain%"
+   },
+   "LOCALE_RETRY": {
+      "message": "Tentar novamente"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Salvar arquivo sem Threat Extraction"
+   },
+   "LOCALE_SCANNING": {
+      "message": "Analisando"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Pesquisa por Zero Phishing"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "A pesquisar novas ameaças"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "Análise completa"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "Realizar análise do site"
+   },
+   "LOCALE_SECONDS": {
+      "message": "segundos"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "Fazendo download seguro de..."
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "Enviar feedback"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "envie um relatório e continue"
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "O servidor não respondeu de forma atempada"
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "O servidor retornou uma resposta inesperada"
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "Mostrar na pasta"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "Mostrar menos"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "Mostrar mais"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "Instalado com sucesso"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Check Point SandBlast Agent for Browsers"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "Ir para a versão segura deste site"
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "Por favor volte a tentar, mas apenas se confiar no site"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "O site é muito recente ou completamente desconhecido"
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "Website não seguro a solicitar dados sensíveis"
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "Cuidado! Qualquer informação aqui disponibilizada (website que não é HTTPS) pode ser vista por outras pessoas."
+   },
+   "LOCALE_USED_IN": {
+      "message": "utilizado em"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "O portal UserCheck não está acessível"
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "Utilizar a palavra-passe predefinida"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Verificado pelo Zero Phishing"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "Visualizar arquivo"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "Cuidado! Está a utilizar uma palavra-passe fraca muito comum."
+   },
+   "LOCALE_WEEKS": {
+      "message": "semanas"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "ontem"
+   }
+}

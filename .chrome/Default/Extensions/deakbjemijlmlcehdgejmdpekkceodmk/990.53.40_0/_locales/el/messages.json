@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "1 ώρα πριν"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "1 λεπτό πριν"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "Ακύρωση download"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "Ακύρωση ελέγχου. Εμπιστεύομαι αυτό το site."
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "Είναι η πρώτη φορά που έχετε πρόσβαση σε αυτή την φόρμα.\n Το Zero Phishing θα την κάνει scan μόνο μια φορά."
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "Η πρόσβαση στο αρχείο έχει μπλοκαριστεί"
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "Η διεύθυνση του site είναι fishy"
+   },
+   "LOCALE_AGO": {
+      "message": "πριν"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "Περιμένωντας τον ελεγχο του αρχείου"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "Blocked"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Blocked by Zero Phishing"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "Βοηθησέ με να αλλάξω password"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "To Site has suspicious phishing characteristics"
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "Clear completed"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "Μπορείτε να κλείσετε αυτό το tab και να συνεχίσετε να δουλεύετε.\u003Cbr>Εαν ήρθατε εδώ απο λάθος,&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "Συλλογή αρχείων καταγραφής"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "Δεν μπορώ να συνδεθώ στον server"
+   },
+   "LOCALE_DAYS": {
+      "message": "ημέρες"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "Να μην εμφανιστεί πάλι "
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": "Το αρχείο που έγινε download είναι κακόβουλο"
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "Λήψη αρχείου"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "Το Download ακυρώθηκε"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "Λάθος: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "Πρόσβλημα στο να πάρουμε το οriginal αρχείο"
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "Αποτυχία καθαρισμού του αρχείου"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "Αποτυχία download του αρχείου"
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "Αποτυχία ελέγχου του αρχείου"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "Αποτυχία upload του αρχείου για έλεγχο"
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "Κατεβάστε το Original αρχείο"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Το αρχείο υπερβαίνει το μέγιστο μέγεθος ελέγχου"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "Το αρχείο είναι προστατευμένο με password"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "Το αρχείο είναι προστατευμένο με password και για αυτό είναι αποκλεισμένο"
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Το αρχείο μπορεί να είναι επικίνδυνο μιας και υπερβαίνει το μέγιστο μέγεθος ελέγχου"
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "Ο τύπος του αρχείου είναι απαγορευμένος"
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "Πιθανά κακόβουλα στοιχεία αφαιρέθηκαν από το αρχείο"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "Το αρχείο μετατράπηκε σε PDF"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "Με βάση την εταιρική πολιτική, το αρχείο μετατράπηκε σε PDF για να αφαιρεθούν πιθανοί κίνδυνοι ασφαλείας"
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "Τέλος ελέγχου αρχείου"
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "Get original"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "Hide details"
+   },
+   "LOCALE_HOURS": {
+      "message": "ώρες"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "Για να κρατήσετε το account σας ασφαλές και προσβάσιμο θα πρέπει\u003Cbr>\u003Cb>άμεσα να αλλάξετε το εταιρικό σας password.\u003C/b>"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "Το Inspection service δεν είναι διαθέσιμο"
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "Χρειάζεται εγκατάσταση ενός hotfix στον server, παρακαλώ δείτε το sk108695"
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "Το API key is λανθασμένο, παρακαλώ ελέγξτε την συνδρομή σας"
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "τελευταία εβδομάδα"
+   },
+   "LOCALE_LOADING": {
+      "message": "Φόρτωνει"
+   },
+   "LOCALE_MINUTES": {
+      "message": "λεπτά"
+   },
+   "LOCALE_NOW": {
+      "message": "Τώρα"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "Δεν βρέθηκαν downloads"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "Δεν έχει ρυθμιστεί κάποιος server"
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "Δεν βρέθηκαν απειλές"
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "Σελίδα Offline ζητά ευαίσθητα δεδομένα"
+   },
+   "LOCALE_OPTIONS": {
+      "message": "Επιλογές"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "Your extension is remotely managed."
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "License is invalid"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "Το Original αρχείο είναι κακόβουλο"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "Το Original αρχείο είναι κακόβουλο και δεν μπορεί να είναι προσβάσιμο"
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "Το Original αρχείο έχει μπλοκαριστεί"
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "Το Original αρχείο θα κατέβει όταν τελειώσει ο έλεγχος"
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "Πέρασε τον έλεγχο"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "Το εταιρικό σας password (χρήση σε \u003Cspan id='cor'>\u003C/span>) έχει μόλις εκτεθεί σε ενα μη εταιρικό site \u003Cspan id='non'>\u003C/span>.\u003Cbr> Η χρήση των εταιρικών διαπιστευτήριων με άλλα sites είναι επικίνδυνη και απαγορεύεται."
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "Εκτεθειμένο εταιρικό password"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "To gain access to the real site, it is recommend to use a search engine.\u003Cbr>If you understand the risks, you may \u003Ca id='continueLink' href='#'>visit this infected site.\u003C/a>\u003Cbr>This action will be audited."
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "Details"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp>This phishing site may \u003Cb>pretend\u003C/b> to be \u003Cb id='siteDomain'>another site\u003C/b>.\u003C/p>\u003Cp>\u003Ca href='http://en.wikipedia.org/wiki/Phishing'>Phishing sites\u003C/a> try to trick you to \u003Cb>steal your information\u003C/b>\u003Cbr>(for example, passwords or credit cards).\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "Έαν αυτό είναι λάθος,"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "Αναφορά"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Protect from identity theft by phishing sites."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "Phishing is a fraudulent attempt to obtain sensitive information such as usernames, passwords, and credit card details, by masquerading as a trustworthy website. ZoneAlarm Anti-Phishing will scan the websites before letting you insert any personal information and will notify you whether it is a genuine website or a phishing attempt. We strongly recommend that you keep ZoneAlarm Anti-Phishing enabled to avoid being exposed to phishing attacks"
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "στείλτε report"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "στείλτε report και συνεχίστε"
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "Τίτλος"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "Προσoχή! Deceptive site blocked"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "Παρακαλώ επικοινωνήστε με τον administrator σας"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "Με βάση την εταιρική πολιτική, potentially malicious elements were removed from this file"
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": ". "
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "Η συνδρομή σας για quota έχει λήξει"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "Αφαιρέστε το site από την λιστα με τα trusted sites"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "Αναφορά οτι το συγκεκριμένο website δεν ζητά ευαίσθητα δεδομένα"
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "Το site είναι κατηγοριοποιημένο σαν  \u003Ci>Malicious/Phishing\u003C/i>"
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "Site bares resemblance to %alleged_domain%"
+   },
+   "LOCALE_RETRY": {
+      "message": "Επανάληψη"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Σώστε το αρχείο χωρίς το Threat Extraction"
+   },
+   "LOCALE_SCANNING": {
+      "message": "Έλεγχος"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Scanning by Zero Phishing"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "Έλεγχος αρχείου για απειλές"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "Τέλος ελέγχου"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "Έλεγχος site"
+   },
+   "LOCALE_SECONDS": {
+      "message": "δευτερόλεπτα"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "Securely downloading..."
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "Αποστολή feedback"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "στείλτε report και συνεχίστε"
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "Ο Server δεν απάντησε εγκαίρως"
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "Ο Server επέστρεψε μια απροσδόκητη απάντηση"
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "Δείτε το folder"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "Εμφάνισε λιγότερα"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "Εμφάνισε περισσότερα"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "Επιτυχής εγκατάσταση"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Check Point SandBlast Agent for Browsers"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "Πήγαινέ με στην ασφαλή έκδοση αυτού του site"
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "Παρακαλώ δοκιμάστε ξανά αλλά μόνο εάν εμπιστεύεστε αυτό το site"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "Το site είναι πολύ καινούριο ή τελειως άγνωστο"
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "Unsecured website requesting sensitive data"
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "Προσοχή! Κάθε πληρφορία που αποστέλετε εδώ  (μη HTTPS website) είναι προσβάσιμη απο άλλους."
+   },
+   "LOCALE_USED_IN": {
+      "message": "χρησιμοποιείται σε"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "UserCheck portal δεν είναι προσβάσιμο"
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "Χρήση default password"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Verified by Zero Phishing"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "Δείτε το αρχείο"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "Προσοχή! Κάνετε χρήση ενός συνηθισμένου μη ασφαλές password"
+   },
+   "LOCALE_WEEKS": {
+      "message": "εβδομάδες"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "χτες"
+   }
+}

@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title>Check Point SandBlast</title>
+	<link rel="stylesheet" href="lib/jquery-ui/jquery-ui.smoothness.css">
+	<link rel="stylesheet" href="fonts.css">
+	<link rel="stylesheet" href="Site.css">
+	<link rel="stylesheet" href="options.css">
+	<link rel="shortcut icon" type="image/x-icon" href="icons/CheckPointLogo_16.png" />
+	<script type="text/javascript" src="lib/jquery/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui/jquery-ui-1-11-4.min.js"></script>
+	<script type="text/javascript" src="common.js"></script>
+	<script  type="application/javascript;version=1.7" src="hooks_firefox.js"></script>
+	<script type="text/javascript" src="hooks_ie.js"></script>
+	<script type="text/javascript" src="hooks.js"></script>
+	<script type="text/javascript" src="hooks_firefox_quantum.js"></script>
+	<script type="text/javascript" src="options.js"></script>
+</head>
+<body>
+	<div class="page">
+	<div id="header" class="pageHeader">
+		<div class="topBar">
+			<div class="middlePercent clear-fix" style="vertical-align: middle;">
+				<div class="lFloat logoContainer">
+					<a href="https://www.checkpoint.com/products-solutions/zero-day-protection/index.html" target="_blank">
+						<div class="logo inlineBlock"></div>
+					</a>
+				</div>
+				<div class="rFloat cpLogoContainer">
+					<a href="https://www.checkpoint.com" target="_blank">
+						<div class="cpLogo inlineBlock"></div>
+					</a>
+				</div>
+				<ul id="ulTaskbar" class="horizontalBar bold tabs">
+					<li><a href="#settings" id="settingsScreenLink"><span>Options</span></a></li>
+					<li style="display: none;" name="uploadFileTaskBarPart"><a href="#upload_file" id="uploadFileDialogLink" style="float: left;"><span>Scan File</span></a></li>
+					<li style="display: none;" name="scanURLTaskBarPart"><a href="#scan_url" id="scanURLDialogLink" style="float: left;"><span>Scan URL</span></a></li>
+					<li style="display: none;" name="debugFileTaskBarPart"><a href="#debug_div" id="debugFileDialogLink" style="float: left;"><span>Debug</span></a></li>
+				</ul>
+				<div>
+					<center><span id="settingsApplyMessage"></span></center>
+				</div>
+			</div>
+			<div class="topBarBorder">&nbsp;</div>
+		</div>
+	</div>
+	<div id="settings" class="main" hidden="true">
+	 <div id="options_wrapper">
+		<div class="middlePercent">
+			<form id="settingsForm" method="post">
+				<div style="display: none;" id="threat_prevention_div" class="sectionWrapper">
+					<div class="sectionHeader">
+						<div class="clear-fix sectionHeaderWrapper">
+							<h2 class="sectionHeaderTitle">SandBlast Protection for File Downloads</h2>
+							<div class="sectionHeaderRight">
+								<div class="onoffswitch sectionHeaderSwitch">
+									<input type="checkbox" name="file_protection_enabled" class="onoffswitch-checkbox autoSave" id="file_protection_enabled">
+									<label class="onoffswitch-label" for="file_protection_enabled">
+										<span class="onoffswitch-inner"></span>
+										<span class="onoffswitch-switch"></span>
+									</label>
+								</div>
+								<div class="sectionHeaderAdvancedSettings">&nbsp;
+									<!--<a href="#" id="advancedSettingsButton">Advanced...</a>-->
+									<img id="advancedSettingsButton" src="icons/settings.png" height=27 width=27 />
+								</div>
+							</div>	
+					    </div>
+						<hr />
+					    <div class="sectionDescription">
+							<!--<p>SandBlast secures your downloaded files by utilizing the following technologies:</p>
+							<p>Threat Emulation - Detect malicious behaviour by running files within secure virtual environment.</p>
+						    <p>Threat Extraction - Obtain immediate and safe access to documents by removing potentially malicious elements or converting the file to PDF.</p>-->
+							<p id="file_download_desc"></p>
+						</div>
+					</div>
+					<div class="sectionBody">
+						<!--<div id="threatPreventionGlobalTypesListHeaders">
+							<span></span>
+							<span>SandBlast Action</span>
+							<span>Policy</span>
+						</div>-->
+						<ul class="threatPreventionGlobalTypesList">
+							<li>
+								<p><span id="supported_files_header_span">Supported Files (TE + TEX)</span>&nbsp;&nbsp;&nbsp;<span class="txtSmall txtGray">.pdf, .doc, .docx, .xls, .xlsx, .ppt, .pptx and <a href="#" id="fileTypesShowMoreDocsLink">more</a></span></p>
+								<input type="hidden" id="docs" />
+							</li>		
+							<li id="partially_supported_files_li">
+								<p>Partially Supported Files (TE Only)&nbsp;&nbsp;&nbsp;<span class="txtSmall txtGray">.zip, .exe, .tar, .rar, .jar, .cab, .tgz and <a href="#" id="fileTypesShowMoreOthersLink">more</a></span></p>
+								<input type="hidden" id="other" />
+							</li>
+							<li>
+								<p>Unsupported Files</p>
+								<input type="hidden" id="unsupported" />
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div style="display: none;" id="identity_protection_div" class="sectionWrapper">
+					<div class="sectionHeader">
+						<div class="clear-fix sectionHeaderWrapper">
+							<h2 class="sectionHeaderTitle">Zero Phishing</h2>
+							<div class="sectionHeaderRight">
+								<div class="onoffswitch sectionHeaderSwitch">
+									<input type="checkbox" name="identity_protection_enabled" class="onoffswitch-checkbox autoSave" id="identity_protection_enabled" value="0">
+									<label class="onoffswitch-label" for="identity_protection_enabled">
+										<span class="onoffswitch-inner"></span>
+										<span class="onoffswitch-switch"></span>
+									</label>
+								</div>
+								<div class="sectionHeaderAdvancedSettings">&nbsp;
+									<img id="theftSettingsButton" src="icons/settings.png" height="27" width="27" />
+								</div>
+							</div>
+					    </div>
+						<hr />
+					    <div class="sectionDescription">
+							<p><span class="locale_message" data-locale-message-constnat="LOCALE_PHISHING_SECTION_DESCRIPTION">Protect from identity theft by phishing sites.</span></p>
+						</div>
+					</div>
+				</div>												
+			
+			<div style="display: none;" class="sectionWrapper" id="urlf_div">
+				<div class="sectionHeader">
+					<div class="clear-fix sectionHeaderWrapper">
+						<h2 class="sectionHeaderTitle">Content Filtering</h2>
+						<div class="sectionHeaderRight">
+							<div class="onoffswitch sectionHeaderSwitch">
+								<input type="checkbox" name="urlf_enabled" class="onoffswitch-checkbox autoSave" id="urlf_enabled" value="0">
+								<label class="onoffswitch-label" for="urlf_enabled">
+									<span class="onoffswitch-inner"></span>
+									<span class="onoffswitch-switch"></span>
+								</label>
+							</div>
+							<div class="sectionHeaderAdvancedSettings">&nbsp;
+								<img id="urlfSettingsButton" src="icons/settings.png" height="27" width="27" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr />
+				<div class="sectionBody">
+					<fieldset style="display: none;" id="urlf_level_config">	
+						<div>
+							<span class="fileTypeExtension">URL filtering strictness level: &nbsp;</span>
+							<select id="urlf_level" class="autoSave">
+								<option value="high">High</option>
+								<option value="medium">Medium</option>
+								<option value="low">Low</option>
+								<option value="custom">Custom</option>		
+							</select>
+							<span class="txtSmall txtGray"><a href="#" id="urlfViewCatsDialog">View</a> - <a href="#" id="urlfEditCatsDialog">Customize</a></span>
+						</div>
+					</fieldset>
+					
+					
+				</div>
+			</div>	
+			
+				<div style="display: none;" class="sectionWrapper">
+					<div class="sectionHeader">
+						<div class="clear-fix sectionHeaderWrapper">
+							<h2 class="sectionHeaderTitle">Web Browsing Protection</h2>
+							<div class="sectionHeaderRight">
+								<div class="onoffswitch sectionHeaderSwitch">
+									<input type="checkbox" name="browsing_protection_enabled" class="onoffswitch-checkbox" id="browsing_protection_enabled" value="0">
+									<label class="onoffswitch-label" for="browsing_protection_enabled">
+										<span class="onoffswitch-inner"></span>
+										<span class="onoffswitch-switch"></span>
+									</label>
+								</div>
+							</div>
+					    </div>
+						<hr />
+					    <div class="sectionDescription">
+							<p>Protect from malicious web pages.</p>
+						</div>
+					</div>
+				</div>								
+				<div style="display: none;" class="sectionWrapper" id="additional_settings_div">
+					<div class="sectionHeader">
+						<div class="clear-fix sectionHeaderWrapper">
+							<h2 class="sectionHeaderTitle">Additional Settings</h2>
+							<!--
+							<div class="sectionHeaderRight">
+								<div class="sectionHeaderAdvancedSettings" style="padding-left: 92px; border-left:none">&nbsp;
+									<img id="generalSettingsButton" src="icons/settings.png" height="27" width="27" />
+								</div>
+							</div>
+							-->
+						</div>
+					</div>
+					<hr />
+					<div class="sectionBody">
+						<fieldset id="fieldsetAdditionalSettings">
+							<div>
+								<input type="checkbox" id="show_notifications" class="cpCheckbox autoSave" /><label for="show_notifications" title="Show popup notifications for Web Downloads secured by SandBlast">Display browser notifications</label>
+							</div>		
+						</fieldset>
+						<fieldset style="display: none;" id="fieldsetServerName">	
+							<div>
+								<label for="server" class="titleLabel">Connected Server</label>
+								<p class="fieldExplanation">Select the remote SandBlast server that will perform Threat Emulation and Threat Extraction</p>
+								<div>
+									<div class="topPadding15">
+										<input type="radio" name="use_te_cloud" value="0" id="use_te_cloud0" class="autoSaveByName"/><label for="use_te_cloud0">Gateway (or SandBlast Appliance)</label>
+									</div>
+									<div class="topPadding15">
+										<input type="radio" name="use_te_cloud" value="1" id="use_te_cloud1" class="autoSaveByName"/><label for="use_te_cloud1">Cloud Only</label>
+									</div>
+									<div class="topPadding15">
+										<input type="radio" name="use_te_cloud" value="2" id="use_te_cloud2" class="autoSaveByName"/><label for="use_te_cloud2">Gateway with fallback to the Cloud</label>
+									</div>
+								</div>
+								<div id="gatewaySettings" class="topPadding15">
+									<p class="fieldExplanation">Enter server name (server API key is optional)</p>
+									<input type="text" id="server" placeholder="Enter Server Name" class="autoSave"/>
+									<input type="text" id="api_key" placeholder="Enter your server API key (Optional)" class="autoSave" title="Harden the access to the gateway by defining shared secret between the extension and the Security Gateway (see sk108695 for more info)"/>
+									<span id="server_message" class="inlineBlock"></span>
+								</div>
+								<div id="cloudSettings" class="topPadding15">
+									<p class="fieldExplanation">Enter cloud API key (mandatory)</p>
+									<input type="text" id="te_cloud_server" class="autoSave" style="color: #868686; background-color: #f4f4f4; display: none;" readonly/>
+									<input type="text" id="te_cloud_api_key" placeholder="Enter your cloud API key" class="autoSave"/>
+									<span id="te_cloud_server_message" class="inlineBlock"></span>
+								</div>
+								<div class="topPadding15">
+									<input type="button" value="Check Connection" class="formInlineBtn formInlineBtnLong" id="check_connection" />
+								</div>
+							</div>
+						</fieldset>
+						<fieldset style="display: none;" id="fieldsetLogServer">	
+							<div>
+								<label for="logServer" class="titleLabel">Log Server</label>
+								<p class="fieldExplanation">Enter the log Server address</p>
+								<div id="logServerSettings">
+									<input type="text" id="log_server" placeholder="Enter Log Server Name" class="autoSave"/>
+									<input type="text" id="log_api_key" placeholder="Enter your server API key" class="autoSave"/>
+									<span class="inlineBlock"></span>
+								</div>
+							</div>
+						</fieldset>
+						<fieldset id="fieldsetAdditionalServerSettings">
+							<div>
+								<input type="checkbox" id="logs_enabled" class="cpCheckbox autoSave"><label for="logs_enabled" title="Send logs to server">Send logs to server</label><br><br>
+							</div>		
+						</fieldset>
+						<fieldset id="fieldsetExcludedDomains">
+							<div>
+								<label class="titleLabel">Excluded Domains</label>
+								<p class="fieldExplanation">Exclude the following domains from SandBlast Zero Phishing and File Downloads activities</p>
+								<span id="excluded_domains_desc"></span><input type="button" value="Edit..." style="margin-left: 15px" id="excludedDomainsEditBtn" class="formInlineBtn" />
+							</div>
+						</fieldset>
+						<fieldset id="fieldsetUserCheckLogo">
+							<div>
+								<label class="titleLabel">User-Checks Logo</label>
+								<p class="fieldExplanation">Select the logo image for all user-check pages (maximum size: 300px*300px)</p>
+								<div class="form-fieldset fileContainer" id="logoFileContainer">
+									<input type="text" placeholder="No file selected" id="logoDialogFileName" />
+									<input type="button" value="Choose..." style="margin-left: 5px" class="btnSmall formInlineBtn" />
+									<input type="file" id="logo_file" name="logo_file" accept="image/*" />
+									<input type="hidden" id="user_check_logo_file" class="autoSave"/>
+								</div>
+								<br>
+								<input type="button" id="defaultLogoBtn" class="btnSmall saveButton" style="vertical-align: middle" value="Default" />&nbsp;&nbsp;
+								<span class="fieldExplanation" style="vertical-align: middle">Use default checkpoint logo</span>
+							</div>
+						</fieldset>
+					</div>
+				</div>
+					<hr class="topSeparator" />
+					<fieldset style="display: block;" id="fieldsetAdminEmail">	
+						<div>
+							<label for="admin_email" class="titleLabel">Admin Email</label>
+							<p class="fieldExplanation">Email to which misclassifications will be sent by the users</p>
+							<div id="setAdminEmail">
+								<input type="text" id="admin_email" placeholder="admin@example.com" class="autoSave"/>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset style="display: block;" id="fieldsetAdminAnalytics">	
+						<div>
+							<label for="admin_analytics" class="titleLabel">Google Analytics</label>
+							<p class="fieldExplanation">Enter your google analytics ID</p>
+							<div id="setAdminAnalytics">
+								<input type="text" id="admin_analytics" placeholder="UA-XXXXXXXX-X" class="autoSave"/>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset id="fieldsetSubmit">
+						<!--<input type="submit" class="saveButton inlineBlock" id="save" name="save" value="Apply" />-->
+						<table><tr><td>
+						<input type="button" style="display: none;" value="Export Configuration..." id="exportConfigurationDialogBtn" class="inlineBlock formInlineBtn"/>
+						</td><td>
+						<input type="button" style="display: none;" value="Import Configuration..." id="importConfigurationDialogBtn" class="inlineBlock formInlineBtn"/>
+						</td></tr></table>
+						<p id="extension_version" class="fieldExplanation"></p>
+					</fieldset>
+			</form>
+		</div>
+	</div>
+	</div>
+
+	<div id="upload_file" class="main" hidden="true">
+		<div class="middlePercent">
+			<div class="pageContentHeader">
+				<h2 class="inlineBlock">Scan a file with SandBlast</h2>
+			</div>			
+			<hr class="topSeparator dotted-spaced-line" />
+			<div class="uploadFileTab-body">	
+				<p style="font-size: 16px;padding-bottom: 20px;">Perform a manual SandBlast scan on any local file:</p>
+					<!--<form action="/file-upload" class="dropzone" id="testSettingsTestFileDrop"></form>-->
+				<form>
+				<div class="form-fieldset fileContainer" id="testFileContainer">
+					<input type="text" placeholder="No file selected" id="testSettingsDialogTestFileName" />
+					<input type="button" value="Choose..." style="margin-left: 5px" class="btnSmall formInlineBtn" />
+					<input type="file" id="test_file" name="test_file" />
+				</div>
+				<div style="margin-top: 27px;">
+					<input type="button" id="test_button" class="saveButton" name="test_button" tabindex="-1" value="Scan" style="margin-top: 10px;" />
+					<!--<span id="testResultMessage" class="inlineBlock statusMessageSuccess">No malicious parts were found!</span>-->
+				</div>
+				</form>
+				 
+			</div>
+		</div>
+	</div>
+
+	<div id="scan_url" class="main" hidden="true">
+		<div class="middlePercent">
+			<div class="pageContentHeader">
+				<h2 class="inlineBlock">Scan a URL with SandBlast</h2>
+			</div>			
+			<hr class="topSeparator dotted-spaced-line" />
+			<div class="uploadFileTab-body">	
+				<p style="font-size: 16px;padding-bottom: 20px;">Perform a manual SandBlast scan on any URL:</p>
+				<input type="text" placeholder="Enter URL" id="scan_url_address" name="scan_url_address" />
+				<form>
+				<div style="margin-top: 27px;">
+					<input type="button" id="scan_button" class="saveButton" name="scan_button" tabindex="-1" value="Scan" style="margin-top: 10px;" />
+				</div>
+				</form>
+			</div>
+			<br><br>
+			<div id="scan_url_report">
+			</div>
+		</div>
+	</div>
+	
+	<div id="debug_div" class="main" hidden="true">
+		<div class="middlePercent">
+			<div class="pageContentHeader">
+				<h2 class="inlineBlock">Debug</h2>
+			</div>			
+			<hr class="topSeparator dotted-spaced-line" />
+			<div class="uploadFileTab-body">	
+				<p style="font-size: 16px;padding-bottom: 20px;">Decrypt debug file:</p>
+				<form>
+				<div class="form-fieldset fileContainer" id="debugFileContainer">
+					<input type="text" placeholder="No file selected" id="debugDialogTestFileName" />
+					<input type="button" value="Choose..." style="margin-left: 5px" class="btnSmall formInlineBtn" />
+					<input type="file" id="debug_file" name="debug_file" />
+				</div>
+				<div style="margin-top: 27px;">
+					<input type="button" id="debug_button" class="saveButton" name="debug_button" tabindex="-1" value="Decrypt" style="margin-top: 10px;" />
+				</div>
+				</form>
+				 
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal dialogs -->
+
+	<div class="modal" id="protectedDomainsDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Protected Domains</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">	
+				<div>
+					<input type="text" id="addDomainToTrustInput" placeholder="Enter Domain to Protect" class="integratedButtonInput" />
+					<input type="button" id="addDomainToTrustButton" value="Add" class="formInlineBtn btnIntegrated" />
+				</div>
+				<div class="listbox listbox-deletable">
+					<ul id="protected_domains">
+						<!-- Populated automatically -->
+					</ul>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Close" />
+			</div>
+		</div>
+	</div>	
+	
+	<div class="modal" id="excludedDomainsDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Excluded Domains</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">	
+				<div>
+					<input type="text" id="addDomainToExcludeInput" placeholder="Enter Domain to Exclude" class="integratedButtonInput" />
+					<input type="button" id="addDomainToExcludeButton" value="Add" class="formInlineBtn btnIntegrated" />
+				</div>
+				<div class="listbox listbox-deletable">
+					<ul id="excluded_domains">
+						<!-- Populated automatically -->
+					</ul>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Close" />
+			</div>
+		</div>
+	</div>	
+
+	<div class="modal" id="exportConfigurationDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Export Configuration</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">	
+				<p class="modal-sub-header" id="export_config_txt">Export your current configuration to a <select id="export_format" class="autoSave"><option value="registry">Registry</option><option value="json">Json</option></select> file</p> 
+				<p class="modal-sub-header" id="export_config_txt_k12">Export your current configuration to a configuration file</p> 
+				<form id="additionalExportedConfiguration">
+					<ul class="exportConfigurationList">
+						<li>
+							<p>File name (no ext): <input type="text" id="override_user_settings_filename" pattern='[^/\?%*:|"<>]+' data-err-message='File name should not contain: / \ ? % * : | " < >' style="height:25px;width:80px;" placeholder="default" /></p>
+						</li><li>	
+							<input type="checkbox" id="options_disabled" class="cpCheckbox" checked />
+							<label for="options_disabled">Allow users to modify the configuration for 
+							<input type="text" id="override_user_settings_minutes" pattern="\d+" data-err-message="Please provide duration time in minutes" style="height:25px;width:80px;" placeholder="unlimited" /> minutes</label>
+						</li>
+					</ul>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Cancel" />
+				<input type="button" id="exportConfigBtn" class="saveButton" value="Export" />
+			</div>
+		</div>
+	</div>	
+	
+	<div class="modal" id="importConfigurationDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Import Configuration</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Import settings from an exported json file:
+			<p><div class="form-fieldset fileContainer" id="importFileContainer">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" placeholder="No file selected" id="importSettingsDialogFileName" />
+				<input type="button" value="Choose..." style="margin-left: 5px" class="btnSmall formInlineBtn" />
+				<input type="file" id="import_file" name="import_file" accept=".json" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</div></p>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Cancel" />
+				<input type="button" id="importConfigBtn" class="saveButton" value="Import" />
+			</div>
+		</div>
+	</div>
+	
+	<div class="modal" id="generalSettingsDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>General Settings</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">
+				<ul class="generalSettingsConfigurationList">
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Close" />
+			</div>
+		</div>	
+	</div>
+	
+	<div class="modal" id="fileTypesShowMoreDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>File Types</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">
+				<table id="fileTypesTable" class="gridView">
+					<tbody>
+						<tr class="gridViewHeader">
+							<th>Extension</th>
+							<th>Description</th>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Close" />
+			</div>
+		</div>	
+	</div>
+	
+	<div class="modal" id="theftSettingsDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Zero Phishing Settings</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">
+				<ul class="theftSettingsConfigurationList">
+					<li>
+						<label class="titleLabel">Phishing Prevention</label>
+						<p class="fieldExplanation">Check if web forms asking for personal information are impersonating others sites</p>
+						<br>
+						<span class="fileTypeExtension" title="Check if web sites asking for personal information are impersonating others sites">Phishing Protection:</span>
+						<select id="phishing_detection_mode" class= "autoSave"><option value="2">Prevent Access and Log</option><option value="3">Prevent Access Only</option><option value="1">Log Only</option><option value="0">Off</option></select>
+						<br><br>
+						<input type="checkbox" id="theft_logs_mode" class="cpCheckbox autoSave"><label for="theft_logs_mode" title="Send log on each scanned site">Send log on each scanned site</label>
+						<br><br>
+						<input type="checkbox" id="permit_continue_anyway" class="cpCheckbox autoSave"><label for="permit_continue_anyway" title="Allow user to visit detected phishing sites">Allow user to dismiss the phishing alert and continue to access the site</label>
+						<br><br>
+						<input type="checkbox" id="permit_cancel_scan" class="cpCheckbox autoSave"><label for="permit_cancel_scan" title="Allow user to abort phishing scans">Allow user to abort phishing scans</label>
+					</li>
+					<li>
+						<label class="titleLabel">Password Reuse</label>
+						<p class="fieldExplanation">Check if corporate passwords are used in non-corporate sites</p>
+						<br>
+						<span class="fileTypeExtension" title="Check if corporate passwords are used in non-corporate sites">Password Reuse Protection:</span>
+						<select id="password_reuse_mode" class= "autoSave"><option value="2">Alert User and Log</option><option value="3">Alert User Only</option><option value="1">Log only</option><option value="0">Off</option></select>
+						
+						<br><br>
+						<span class="fileTypeExtension" title="Protect passwords used in these domains">Protected Domains:</span>
+						&nbsp;<span id="protected_domains_desc"></span><input type="button" value="Edit..." style="margin-left: 60px" id="protectedDomainsEditBtn" class="formInlineBtn" />
+
+					</li>
+				</ul>
+			</div>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Close" />
+			</div>
+		</div>	
+	</div>
+	
+	<div class="modal" id="advancedSettingsDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Advanced Settings</h2>
+				<ul id="advancedSettingsDialogTabs" class="tabs simpleHorizontalList">
+					<li><a href="#advancedSettingsDialogTabs-types">File Types</a></li>
+					<li><a href="#advancedSettingsDialogTabs-parts">Extracted Elements</a></li>
+					<li><a href="#advancedSettingsDialogTabs-settings">More...</a></li>
+				</ul>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">
+				<div>
+					<div id="advancedSettingsDialogTabs-types">
+						<p class="modal-sub-header">Select extract behavior file type extensions:</p> 
+						<div class="clear-fix">
+							<div id="advancedSettingsDialogFileTypesLeftColumn">
+								<ul class="tabs verticalTabs" id="advancedSettingsDialogFileTypesTabs">
+									<li><a href="#advancedSettingsDialogFileTypesTabs-pdf">PDF</a></li>
+									<li><a href="#advancedSettingsDialogFileTypesTabs-word">Word</a></li>
+									<li><a href="#advancedSettingsDialogFileTypesTabs-excel">Excel</a></li>
+									<li><a href="#advancedSettingsDialogFileTypesTabs-pp">PowerPoint</a></li>
+									<li><a href="#advancedSettingsDialogFileTypesTabs-arc">Archive</a></li>
+									<li><a href="#advancedSettingsDialogFileTypesTabs-bin">Binary Files</a></li>
+									<li><a href="#advancedSettingsDialogFileTypesTabs-other">Other file types</a></li>
+									<li><a href="#advancedSettingsDialogFileTypesTabs-custom">Unsupported</a></li>
+								</ul>
+							</div>
+							<div id="advancedSettingsDialogFileTypesRightColumn">
+								<div id="advancedSettingsDialogFileTypesToolbar" class="clear-fix">
+									<div class="selectionHelper">
+										<span class="inlineBlock"><a href="#" id="advancedSettingsDialogFileTypesRestoreDefaults">Restore all to default</a></span>
+									</div>
+								</div>
+								<div id="advancedSettingsDialogFileTypesTabs-pdf">
+									<ul class="fileTypesList">
+									</ul>
+								</div>
+								<div id="advancedSettingsDialogFileTypesTabs-word">
+									<ul class="fileTypesList">
+									</ul>
+								</div>
+								<div id="advancedSettingsDialogFileTypesTabs-excel">
+									<ul class="fileTypesList">
+									</ul>
+								</div>
+								<div id="advancedSettingsDialogFileTypesTabs-pp">
+									<ul class="fileTypesList">
+									</ul>
+								</div>
+								<div id="advancedSettingsDialogFileTypesTabs-arc">
+									<ul class="fileTypesList">
+									</ul>
+								</div>
+								<div id="advancedSettingsDialogFileTypesTabs-bin">
+									<ul class="fileTypesList">
+									</ul>
+								</div>
+								<div id="advancedSettingsDialogFileTypesTabs-other">
+									<ul class="fileTypesList">
+									</ul>
+								</div>
+								<div id="advancedSettingsDialogFileTypesTabs-custom">
+									<div id="addAllowedFileTypesDiv">
+										<div>
+											<input type="text" id="addAllowedFileTypeInput" placeholder="Enter file type to allow" class="integratedButtonInput">
+											<input type="button" id="addAllowedFileTypeButton" value="Add" class="formInlineBtn btnIntegrated">
+										</div>
+										<div class="listbox listbox-deletable">
+											<ul id="allowed_file_types"></ul>
+										</div>
+									</div>
+									<div id="addBlockedFileTypesDiv">
+										<div>
+											<input type="text" id="addBlockedFileTypeInput" placeholder="Enter file type to block" class="integratedButtonInput">
+											<input type="button" id="addBlockedFileTypeButton" value="Add" class="formInlineBtn btnIntegrated">
+										</div>
+										<div class="listbox listbox-deletable">
+											<ul id="blocked_file_types"></ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div id="advancedSettingsDialogTabs-parts">
+						<p class="modal-sub-header">Select what information to extract:</p> 
+						<div class="selectionHelper">
+							<span class="inlineBlock"><a href="#" id="extractedPartsSelectAll">Select All</a></span>
+							<span class="inlineBlock"><a href="#" id="extractedPartsSelectNone">None</a></span>
+							<span class="inlineBlock"><a href="#" id="extractedPartsSelectDefault">Default</a></span>
+						</div>
+						<div id="extractedPartsListHeader">
+							<span>Severity</span>
+						</div>
+						<div id="extractedPartsListContainer">
+							<ul class="extractedPartsList">
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="sensitive_hyperlinks"/><label for="sensitive_hyperlinks" title="Links to network/local file paths">Sensitive Hyperlinks</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-3"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="macros_and_code"/><label for="macros_and_code" title="Microsoft Office macros and PDF JavaScript code">Macros and Code</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-5"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="embedded_objects"/><label for="embedded_objects" title="Files and objects embedded in documents">Embedded Objects</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-4"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="database_queries"/><label for="database_queries" title="Queries to remote databases">Database Queries</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-2"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="pdf_launch_app"/><label for="pdf_launch_app" title="Launch external applications">PDF Launch Actions</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-4"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="pdf_play_audio"/><label for="pdf_play_audio" title="Play sound objects">PDF Sound Actions</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-3"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="pdf_play_video"/><label for="pdf_play_video" title="Play movie files">PDF Movie Actions</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-3"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="pdf_open_url"/><label for="pdf_open_url" title="Open Uniform Resource Identifier (URI) resources">PDF URI Actions</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-3"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="pdf_execute_code"/><label for="pdf_execute_code" title="Execute JavaScript code">PDF JavaScript Actions</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-5"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="pdf_submit_form"/><label for="pdf_submit_form" title="Submit data to remote locations">PDF Submit Form Actions</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-4"></span>
+									<span class="extractedPartNote"></span>
+								</li>					
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="pdf_go_to_remote"/><label for="pdf_go_to_remote" title="Open other PDF files">PDF GoToR Actions</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-3"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="custom_properties"/><label for="custom_properties" title="Custom document properties">Custom Properties</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-1"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="fast_save_data"/><label for="fast_save_data" title="Stored data for fast document saving">Fast Save Data</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-1"></span>
+									<span class="extractedPartNote"></span>
+								</li>					
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="statistic_properties"/><label for="statistic_properties" title="Statistic document properties">Statistic Properties</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-1"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="summary_properties"/><label for="summary_properties" title="Summary document properties">Summary Properties</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-1"></span>
+									<span class="extractedPartNote"></span>
+								</li>
+								<li>
+									<span class="extractedPartSelectorWrapper"><input type="checkbox" class="cpCheckbox autoSave" id="linked_objects"/><label for="linked_objects" title="Linked objects">Linked Objects</label></span>
+									<span class="extractedPartRiskLevel extractedPartRiskLevel-4"></span>
+									<span class="extractedPartNote"></span>
+								</li>					
+							</ul>
+						</div>
+					</div>
+					<div id="advancedSettingsDialogTabs-settings">
+						<!--p class="modal-sub-header">Configure dowloaded content protection:</p--> 
+							<ul class="advancedSettingsConfigurationList">						
+								<li>	
+									<input type="checkbox" id="fail_close" class="cpCheckbox autoSave" /><label for="fail_close" title="In case of a failure during the SandBlast Protection process, the file will not be downloaded to your computer">Block downloaded files in case of failure</label>
+								</li>
+								<li>	
+									<input type="checkbox" id="size_fail_close" class="cpCheckbox autoSave" /><label for="size_fail_close" title="In case the file is bigger than the maxinum size to scan, the file will not be downloaded to your computer">Block downloaded files in case the file is too big</label>
+								</li>								
+								<li>	
+									<input type="checkbox" id="block_encrypted" class="cpCheckbox autoSave" /><label for="block_encrypted" title="In case the document is password protected, the file will not be downloaded to your computer">Block password protected Office/PDF files uploaded for extraction</label>
+								</li>
+								<li id="block_get_original_li">	
+									<input type="checkbox" id="block_get_original" class="cpCheckbox autoSave" /><label for="block_get_original" title="Block the option to get original files">Block get original files</label>
+								</li>
+								<li id="original_files_are_li">
+									<span class="originalFileOption" title="Choose where to save the original files in case file was modified by Threat Extraction">Original files are</span><select id="original_file_option" class= "autoSave"><option value="1">Saved locally in browser</option><option value="2">Saved on SandBlast on-premise server</option><option value="0">Not saved</option></select>
+									
+								</li>	
+								<li id="te_timeout_label_li">
+									<label for="te_timeout_label" class="smallTitleLabelTE" title="How much time to wait for Threat Emulation verdict, afterwards act as failure">Threat Emulation verdict timeout (in minutes)</label>
+									<input type="number" min="1" max="1440" class="smallInput autoSave" id="te_timeout" pattern="\d+" data-err-message="Please provide duration time in minutes"> 
+								</li>
+
+							</ul>
+							</div>							
+					</div>
+				</div>		
+				<div class="modal-footer">
+					<input type="button" class="btn-close saveButton" value="Close" />
+				</div>
+			</div>
+		</div>
+		
+		<div class="modal" id="urlfSettingsDialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-header">
+					<h2>Content Filtering Settings</h2>
+					<ul id="urlfSettingsDialogTabs" class="tabs simpleHorizontalList">
+						<li><a href="#urlfSettingsDialogTabs-general">General Settings</a></li>
+						<li><a href="#urlfSettingsDialogTabs-ab">Anti-Bullying</a></li>
+						<li><a href="#urlfSettingsDialogTabs-lists">Lists</a></li>
+						<li><a href="#urlfSettingsDialogTabs-user-check">User-Check</a></li>
+						<li><a href="#urlfSettingsDialogTabs-cd">More...</a></li>
+					</ul>
+					<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+				</div>
+				<div class="modal-body">
+					<div id="urlfSettingsDialogTabs-general">
+						<ul style="list-style-type: none;" class="advancedaSettingsConfigurationList">
+							<li>
+								<span class="fileTypeExtension">URL filtering protection:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+								<select id="urlf_mode" class="autoSave"><option value="2">Prevent Access and Log</option><option value="3">Prevent Access Only</option><option value="1">Log Only</option></select>
+							</li><br>
+							<li>
+								<span class="fileTypeExtension">URL filtering mode:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+								<select id="urlf_hold_mode" class="autoSave"><option value="allow">Background</option><option value="block">Hold</option></select>
+							</li>
+							<br>
+							<li>
+								<input type="checkbox" id="urlf_logs_mode" class="cpCheckbox autoSave"><label for="urlf_logs_mode">Send log on each scanned site</label>
+							</li><br><li>
+								<input type="checkbox" id="urlf_permit_continue_anyway" class="cpCheckbox autoSave"><label for="urlf_permit_continue_anyway">Allow user to dismiss the content blocked alert and continue to access the site</label>
+							</li><br><li>
+								<input type="checkbox" id="urlf_force_safe_search" class="cpCheckbox autoSave"><label for="urlf_force_safe_search">Force safe search in Google, Youtube, Yahoo and Bing</label>
+								<br><br>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="urlf_block_unsafe_search_engines" class="cpCheckbox autoSave"><label for="urlf_block_unsafe_search_engines">Block other search engines</label>
+							</li>
+						</ul>
+					</div>
+					<div id="urlfSettingsDialogTabs-ab">
+						<ul style="list-style-type: none; margin-top: 1%;" class="advancedaSettingsConfigurationList">
+							<li>
+								<table width="100%">
+									<tbody>
+										<tr><td style="width: 47%;">
+											<input type="checkbox" id="urlf_enable_anti_bullying" class="cpCheckbox autoSave"><label for="urlf_enable_anti_bullying" title="Enables a mechanism that searches for bad words and disallows the user to use them">Enable Anti-Bullying</label>
+										</td><td>
+											<input type="checkbox" id="anti_bullying_beep_enabled" class="cpCheckbox autoSave"><label for="anti_bullying_beep_enabled" title="Sounds a beep whenever a bad word is found">Beep When bullying is detected</label>
+										</td></tr>
+										<tr>
+											<td><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" id="urlf_enable_anti_bullying_website" class="cpCheckbox autoSave"><label for="urlf_enable_anti_bullying_website" title="Enables a mechanism that scannes all the words in the current website and blocks it if it finds bad words">Enable Anti-Bullying Website Block</label></td>
+											<td></td>
+										</tr>
+									</tbody>
+								</table>
+							</li>
+							<br>
+							<li>
+								<span class="fileTypeExtension">Anti-Bullying:</span>&nbsp;
+								<select id="anti_bullying_mode" class= "autoSave"><option value="2">Alert User and Log</option><!--<option value="3">Alert User Only</option>--><option value="1">Log only</option><!--<option value="0">Off</option>--></select>
+							</li>
+							<li>
+							<table width="100%"><tr><td>
+								<fieldset id="fieldsetExcludedDomains">
+									<div>
+										<label class="titleLabel">Enforced categories</label>
+										<p class="fieldExplanation">Select the enforced categories:</p>
+										<span id="bullying_enforced_cats_desc"></span>
+										<input type="button" value="Edit..." style="margin-left: 15px" id="enfocedCategoriesEditBtn" class="formInlineBtn" />
+									</div>
+								</fieldset>
+							</td><td>
+								<fieldset id="fieldsetExcludedDomains">
+										<div>
+											<label class="titleLabel">Blacklisted Words</label>
+											<p class="fieldExplanation">Always censor the following words:</p>
+											<span id="blacklist_words_desc"></span>
+											<input type="button" value="Edit..." style="margin-left: 15px" id="blacklistWordsEditBtn" class="formInlineBtn" />
+										</div>
+									</fieldset>
+							</td></tr></table>
+							</li>
+							<br>
+						</ul>
+					</div>
+
+					<div id="urlfSettingsDialogTabs-lists">
+						<ul style="list-style-type: none;" class="advancedaSettingsConfigurationList">
+							<li>
+								<fieldset id="fieldsetExcludedDomains">
+									<div>
+										<label class="titleLabel">Whitelist/Blacklist Sites</label>
+										<p class="fieldExplanation">Always allow the following URLs:</p>
+										<b>Whitelist</b> - <span id="whitelist_domains_desc"></span><input type="button" value="Edit..." style="margin-left: 15px" id="whitelistDomainsEditBtn" class="formInlineBtn" />
+										<p class="fieldExplanation">Always block the following URLs:</p>
+										<b>Blacklist</b> - <span id="blacklist_domains_desc"></span><input type="button" value="Edit..." style="margin-left: 15px" id="blacklistDomainsEditBtn" class="formInlineBtn" />
+									</div>
+								</fieldset>
+							</li>
+							<br><br><br>
+						</ul>
+					</div>
+
+					<div id="urlfSettingsDialogTabs-user-check">
+							<ul style="list-style-type: none;" class="advancedaSettingsConfigurationList">
+								<li>
+									<label class="titleLabel">Title</label>
+									<p class="fieldExplanation">Change the title for user check page</p>
+									<input type="text" style="width:479px" id="user_check_title" placeholder="Enter title" class="autoSave"  value="Access To This Site Is Blocked!"/>
+								</li>
+								<br>
+								<li>
+									<label class="titleLabel">Description</label>
+									<p class="fieldExplanation">Change the description for user check page</p>
+									<input type="text" style="width:479px" id="user_check_description" placeholder="Enter description" class="autoSave"  value="This site is noneducational and it is blocked by your school's policy."></textarea>
+								</li>
+								<br><br>
+								<li>
+									<input type="button" id="userCheckPreviewBtn" class="saveButton" style="vertical-align: top" value="Preview" />
+								</li>
+							</ul>
+						</div>
+
+					<div id="urlfSettingsDialogTabs-cd">
+						<ul style="list-style-type: none;" class="advancedaSettingsConfigurationList">
+							<li>
+								<span class="fileTypeExtension">URL filtering service fail mode:&nbsp;&nbsp;</span>
+								<select id="urlf_fail_mode" class="autoSave"><option value="allow">Fail open</option><option value="block">Fail close</option></select>
+							</li>
+							<br>
+							<li>
+								<label class="titleLabel">URL Cache</label>
+									<p class="fieldExplanation">Life-time (in minutes) of a URL and its clasification in the cache</p>
+								<input type="text" id="urlf_cache_expire" placeholder="Enter time in minutes" class="autoSave"/>
+									</li><br><li>
+								<label class="titleLabel">URL Service Timeout</label>
+
+									<p class="fieldExplanation">Max time (in milliseconds) to wait for the URL service</p>
+								<input type="text" id="urlf_service_timeout" placeholder="Enter time in miliseconds" class="autoSave"/>
+								</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<input type="button" class="btn-close saveButton" value="Close" />
+					</div>
+				</div>
+			</div>	
+		</div>
+				</div>
+				<div class="modal" id="urlfCatsBlockedDialog" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-header">
+							<h2>Blocked Catagories:</h2>
+							<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+						</div>
+						<div class="modal-body">
+							<table id="urlfBlockedCatsTable" class="gridView">
+								<tbody>
+									<tr class="gridViewHeader">
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="modal-footer">
+							<input type="button" class="btn-close saveButton" value="Close" />
+						</div>
+					</div>	
+				</div>
+				<div class="modal" id="urlfCatsEditDialog" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-header">
+							<h2>Blocked Catagories:</h2>
+							<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+						</div>
+						<div class="modal-body">
+							<table id="urlfEditCatsTable" class="gridView">
+								<tbody>
+									<tr class="gridViewHeader">
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="modal-footer" id="urlfCatsEditDialogFooter">
+							<input type="button" class="btn-close saveButton" value="Close" />
+						</div>
+					</div>	
+				</div>
+					<div class="modal" id="whitelistDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Whitelist Domains (regex)</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">	
+				<div>
+					<input type="text" id="addDomainToWhitelistInput" placeholder="Enter Domain to Whitelist" class="integratedButtonInput" />
+					<input type="button" id="addDomainToWhitelistButton" value="Add" class="formInlineBtn btnIntegrated" />
+				</div>
+				<div class="listbox listbox-deletable">
+					<ul id="whitelist">
+						<!-- Populated automatically -->
+					</ul>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Close" />
+			</div>
+		</div>
+	</div>
+	<div class="modal" id="blacklistDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Blacklist Domains (regex)</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">	
+				<div>
+					<input type="text" id="addDomainToBlacklistInput" placeholder="Enter Domain to Blacklist" class="integratedButtonInput" />
+					<input type="button" id="addDomainToBlacklistButton" value="Add" class="formInlineBtn btnIntegrated" />
+				</div>
+				<div class="listbox listbox-deletable">
+					<ul id="blacklist">
+						<!-- Populated automatically -->
+					</ul>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Close" />
+			</div>
+		</div>
+	</div>	
+	<div class="modal" id="wordBlacklistDialog" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-header">
+				<h2>Blacklist Words (Anti-Bullying)</h2>
+				<a class="modal-dialog-exit" aria-hidden="true" href="#">x</a>
+			</div>
+			<div class="modal-body">	
+				<div>
+					<input type="text" id="addWordToBlacklistInput" placeholder="Enter Word to Blacklist" class="integratedButtonInput" />
+					<input type="button" id="addWordToBlacklistButton" value="Add" class="formInlineBtn btnIntegrated" />
+				</div>
+				<div class="listbox listbox-deletable">
+					<ul id="word_blacklist">
+						<!-- Populated automatically -->
+					</ul>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<input type="button" class="btn-close saveButton" value="Close" />
+			</div>
+		</div>
+	</div>
+
+	</body>
+</html>

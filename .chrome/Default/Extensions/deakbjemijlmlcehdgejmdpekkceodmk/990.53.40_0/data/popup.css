@@ -1,0 +1,350 @@
+* {
+	padding: 0 0;
+	margin: 0 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif, "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    font-size: 75%;
+    color: #333333;
+    background-color: #ffffff;
+    height: 2000px;
+    width: 400px;
+    overflow: hidden;
+    border: 1px;
+    border-color: #dbdbdb;
+    border-radius: 2px;
+}
+
+/* 
+width modification for Firefox 57+ only. 
+in chrome html width is automatically set to 417px, in firefox 57+ to 400px 
+*/
+@-moz-document url-prefix() {
+	body {
+		width: 417px;
+	}
+}
+
+.hidden {
+    display: none;
+}
+
+.occupy_all_row {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.clear-fix:after
+{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear-fix
+{
+	zoom: 1;
+}
+
+a:hover, a:visited, a:link, a:active {
+	text-decoration: none;
+}
+
+.top_banner {
+	position:fixed;
+	top: 0;
+	left: 0;
+	width:420px;
+}
+
+.bottom_banner {
+	position:fixed;
+	bottom: 0;
+	left: 0;
+	width:420px;
+	background: #ffffff;
+	height: 30px;
+}
+
+.divider {
+	background-image: url(icons/Divider.png);
+	background-repeat: repeat-x;
+	position:relative;
+	top: -8px;
+}
+
+#clear_downloads, #collect_logs {
+	position:relative;
+	top: -12px;
+	color: #3c87ed;
+	display: block; 
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#report_incident {
+	position:relative;
+	top: -12px;
+	color: #3c87ed;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+#popup_header 
+{
+	height: 55px;
+	background-color: #f4f4f4;
+	border-bottom: 2px solid #e3426c;
+}
+
+#popup_logo_div
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	background: url('icons/CheckPointLogo_24.png') no-repeat;
+	background-size: 24px 24px; /* image's size */
+	background-position: left center;
+	padding-left: 29px;
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-weight: 600; /* Semibold */
+	color: #333333;
+	line-height: 19px;
+}
+
+#popup_logo_div > span
+{
+	vertical-align: middle;
+	display: inline-block;
+}
+
+#popup_settings_div
+{
+	margin-right: 30px;
+	float: right;
+	margin-top: 15.5px;
+}
+
+#open_options:hover
+{
+	cursor: pointer;
+}
+
+#notifs
+{
+	position: absolute;
+	top: 57px;
+	left: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	width: 400px;
+	height: 512px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.notif {
+	background:white;
+	border-top:1px solid gray;
+	border-left:1px solid gray;
+	border-bottom:2px solid gray;
+	border-right:2px solid gray;
+	margin-left:10px;    /* spacing around notification blocks */
+	margin-right:10px;
+	min-height:48px; /* This MUST be at least height of the logo image */
+	width:400px; /* width of the notifications */
+	box-shadow: 3px 3px 0 0 rgba(0,0,0,0.3); /* shadow only works with newer browsers supporting CSS3 */
+	font-size:12px; /* normal text font*/
+}
+.notif_button {
+	font-size:12px; /* normal text font*/
+	display:inline-block;
+	border-top:2px solid #dddddd;
+	padding:8px;
+	text-decoration:none;
+	color:black;
+	width:390px; /* width of the notifications */
+}
+
+.flatProgressBar {
+	height: 2px;
+	background-color: #d3d3d3;
+	width:295px;
+	float: left;
+	margin-top: 5px;
+}
+
+.flatProgressBarOnProgress {
+	background-color:#e3426c;
+	height:100%;
+}
+
+.flatNotif {
+	min-height: 48px; /* This MUST be at least height of the logo image */
+	width: 400px; /* width of the notifications */
+	font-size: 12px; /* normal text font*/
+}
+
+.flatNotifBody {
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.flatNotifBody:hover {
+	background-color: #eeeeee;
+}
+
+.flatNotifHeader {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+}
+
+.flatNotifHeader_after {
+	background-position: 0px -1px;
+	width: 420px;
+	background-image: url(icons/Complete_Line_Maker.png);
+	background-repeat: repeat-x;
+}
+
+.flatNotifDownloadTime {
+	background: white; 
+	position: relative; 
+	top: 8px; 
+	padding-right: 7px;
+	font-size: 12px;
+	color: #989898;
+}
+
+.flatNotifFileTypeDiv {
+	width: 32px; 
+	min-height: 32px; 
+	margin-right: 10px; 
+	float: left;
+}
+
+.flatNotifFileInfoDiv {
+	width: 338px; 
+	float: left;
+    min-height: 40px;
+}
+
+/*
+.flatNotifRightSideDiv {
+	margin: 5px; 
+	height: 40px; 
+	padding-top: 15px;
+	padding-right: 5px; 
+	float: right; 
+}
+
+.flatNotifRightSideDiv img {
+	width: 20px; 
+	height: 20px; 
+}
+*/
+
+.flatNotifFileName {
+	display: block; 
+	font-size: 14px; 
+	font-weight: bold;
+	/* TODO: margin-bottom: 5px; */
+	word-break: break-all;
+}
+
+.flatNotifFileName a {
+	color: #333333;
+	text-decoration: none;
+}
+
+.flatNotifFileStatus {
+	display: block; 
+	font-size: 12px;
+	/* padding-top: 10px; */
+	float: left;
+}
+
+.flatNotifFileActionLink {
+	color: #3c87ed;
+	display: block; 
+	font-size: 12px;
+	float: right;
+	cursor: pointer;
+	padding-right: 20px;
+}
+
+.flatNotifShowMoreOrLessExpander {
+	color: #3c87ed;
+	display: block; 
+	font-size: 12px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.showMoreExpanderOpen {
+	margin-top: 20px;
+}
+
+.flatNotifFileActionError {
+	display: block;
+	float: right;
+	padding-right: 5px;
+}
+
+.flatNotifFileActionPart {
+	display: block;
+	float: right;
+	padding-right: 30px;
+}
+
+.flatNotifCancelImage, 
+.flatNotifFileTypeIcon {
+	/*padding-bottom: 20px;*/
+	/*padding-right: 10px;*/
+	border: 1px;
+	border-color: #dbdbdb;
+	border-radius: 2px;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25); /* shadow only works with newer browsers supporting CSS3 */
+	background: rgba(0,0,0,0);
+}
+
+.flatNotifMoreInfoIcon {
+	/*padding-bottom: 20px;*/
+	/*padding-right: 10px;*/
+	border: 1px;
+	border-color: #dbdbdb;
+	border-radius: 2px;
+	box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.25); /* shadow only works with newer browsers supporting CSS3 */
+	background: rgba(0,0,0,0);
+}
+
+.flatNotifCancelImage {
+	float: right;
+	margin-right: 25px;
+}
+
+.flatNotifFileBadge {
+	height: 20px; 
+	width: 20px; 
+	position: relative; 
+	top: -62px; 
+	left: 25px;
+}
+
+.flatNotifArrowIcon {
+	margin-bottom: 5px;
+}
+
+/*
+add this class to elements that should only be visible in the K12 distribution of the extension
+*/
+.K12 {
+	display: none;
+}

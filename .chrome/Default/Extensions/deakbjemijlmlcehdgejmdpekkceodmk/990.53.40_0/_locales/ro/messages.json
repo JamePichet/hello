@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "1 ora în urmă"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "1 minute în urmă"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "Anulează descărcarea"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "Anulează inspecţia. Am incredere în această locaţie."
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "Acest formular este accesat pentru prima dată.\nZero Phishing il va scana o singură dată."
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "Accesul la acest fişier a fost blocat"
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "Adresa acestui site este suspicioasă"
+   },
+   "LOCALE_AGO": {
+      "message": "în urmă"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "Se aşteaptă inspecţia fişierului"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "Blocat"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Blocat de Zero Phishing"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "Ajută-mă să imi schimb parola"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "Acest site are caracteristici suspicioase de phishing"
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "Şterge datele despre fişierele deja descărcate"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "Puteţi să închideţi acest tab şi să continuaţi lucrul.\u003Cbr>Dacă aţi ajuns la acest mesaj din eroare,&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "Colectează log"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "Serverul nu poate fi contactat"
+   },
+   "LOCALE_DAYS": {
+      "message": "zile"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "Nu mai arăta acest mesaj"
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": "Fişierul descărcat este maliţios"
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "Se descarcă fişierul"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "Download-ul a fost anulat"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "Eroare: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "Eroare în obţinerea fişierului original"
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "Nu a fost reuşită curăţarea fişierului"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "Nu a fost reuşită descărcarea fişierului"
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "Nu a fost reuşită inspecţia fişierului"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "Nu a fost reuşită încărcarea fişierului pentru inspecţie"
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "Fişierul original a fost descărcat"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Fişierul depăşeste dimensiunea maximă admisă pentru inspecţie"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "Fişierul este protejat cu parolă"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "Fişierul este protejat cu parolă şi nu este permis"
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Fişierul poate să contină elemente riscante deoarece depăşeste dimensiunea maximă admisă pentru inspecţie"
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "Acest format de fişier este interzis"
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "Elemente potenţial periculoase au fost extrase din fişier"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "Fişierul a fost transformat în PDF"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "În baza politicii companiei, fişierul a fost transformat în PDF pentru a elimina riscurile de securitate"
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "Scanarea fişierului a fost finalizată"
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "Cere originalul"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "Ascunde detalii"
+   },
+   "LOCALE_HOURS": {
+      "message": "ore"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "Pentru a vă păstra contul accesibil şi protejat \u003Cbr>\u003Cb>ar trebui să vă schimbaţi imediat parola corporate.\u003C/b>"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "Serviciul de inspecţie nu este disponibil"
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "Este necesară instalarea unui hotfix pe server, va rugăm să urmariţi sk108695"
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "Cheia API este invalidă, vă rugăm să vă verificaţi subscripţia"
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "săptămâna trecută"
+   },
+   "LOCALE_LOADING": {
+      "message": "Încarcă"
+   },
+   "LOCALE_MINUTES": {
+      "message": "minute"
+   },
+   "LOCALE_NOW": {
+      "message": "Acum"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "Nu există fişiere descărcate"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "Nici un server configurat"
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "Nu a fost descoperită nici o ameninţare"
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "Pagina offline cere date sensibile"
+   },
+   "LOCALE_OPTIONS": {
+      "message": "Opţiuni"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "Extensia dumneavoastră este administrată de la distanţă."
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "Licenţa nu este validă"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "Fişierul original este maliţios"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "Fişierul original este maliţios şi nu este accesibil"
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "Fişierul original a fost blocat"
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "Fişierul original va fi descărcat doar după ce inspecţia este completă"
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "Scanat cu succes"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "Parola dumneavoastră corporate (folosită în \u003Cspan id='cor'>\u003C/span>) a fost expusă pe un site non-corporate \u003Cspan id='non'>\u003C/span>.\u003Cbr> Folosirea credenţialelor corporate pe alte site-uri este riscantă şi nu este permisă."
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "Parola Corporate a fost expusă"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "Pentru accesarea site-ului original este recomandată folosirea unui motor de căutare.\u003Cbr>Daca inţelegeti riscurile, puteţi \u003Ca id='continueLink' href='#'>accesa acest site infectat.\u003C/a>\u003Cbr>Această acţiune va fi jurnalizată."
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "Detalii"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp>Acest site de phishing \u003Cb>pretinde\u003C/b> a fi \u003Cb id='siteDomain'>alt site\u003C/b>.\u003C/p>\u003Cp>\u003Ca href='http://en.wikipedia.org/wiki/Phishing'>Site-urile de Phishing\u003C/a> incearcă să vă pacalească pentru a \u003Cb>obţine informaţiile dumneavoastră personale\u003C/b>\u003Cbr>(de exemplu, parole sau informaţii despre cărţile de credit).\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "Dacă este incorect,"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "Referinţă"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Protejează impotriva furtului de identitate de către site-uri de phishing."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "Phishing este o încercare fraudulentă de a obţine informaţii sensibile cum ar fi nume de utilizator, parole, date cărţi de credit, prin mascaradarea într-un site de încredere. ZoneAlarm Anti-Phishing va scana site-urile web înainte de a vă permite să introduceţi informaţii personale si vă va notifica daca este un site original sau o incercare de phishing. Vă recomandăm să păstraţi ZoneAlarm Anti-Phishing activ pentru a vă proteja de atacuri de tip phishing."
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "trimite un raport"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "trimite un raport şi continuă"
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "Titlu"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "Atentie! Site deceptiv blocat"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "Vă rog să contactaţi administratorul"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "În baza politicii companiei, elemente potenţial periculoase au fost eliminate din acest fişier"
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": ". "
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "Cota alocată subscripţiei dumneavoastră a expirat"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "Elimină acestă locaţie din lista de locaţii de încredere"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "Raportează că acest site web nu a cerut date sensibile"
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "Site-ul este clasificat ca \u003Ci>Maliţios/Phishing\u003C/i>"
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "Acest site seamană cu %alleged_domain%"
+   },
+   "LOCALE_RETRY": {
+      "message": "Reîncercaţi"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Salvează fişierul fără Threat Extraction"
+   },
+   "LOCALE_SCANNING": {
+      "message": "Scanează"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Scanează cu Zero Phishing"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "Fişierul este scanat pentru ameninţări"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "Scanare finalizată"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "Scanează această locaţie"
+   },
+   "LOCALE_SECONDS": {
+      "message": "secunde"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "Descărcare securizată..."
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "Trimite părere"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "trimite un raport şi continuă"
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "Server-ul nu a răspuns in timpul aşteptat"
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "Server-ul a intors un răspuns neaşteptat"
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "Arată în director"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "Arată mai puţin"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "Arată detalii"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "Instalat cu succes"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Agentul Check Point SandBlast pentru Browsere"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "Redirecţionează-mă către versiunea securizată a acestui site"
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "Reîncercaţi doar dacă aveţi incredere în acest site"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "Acest site este foarte nou sau necunoscut"
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "Site nesecurizat cere date sensibile"
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "Atentie! Orice informaţie introdusă aici (site web non HTTPS) este vizibilă şi altora."
+   },
+   "LOCALE_USED_IN": {
+      "message": "folosit în"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "Portalul UserCheck nu este accesibil"
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "Se foloseşte parola predefinită"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Verificat de Zero Phishing"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "Vizualizează fişierul"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "Atenţie! Folositi o parola obişnuita slaba"
+   },
+   "LOCALE_WEEKS": {
+      "message": "săptămâni"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "ieri"
+   }
+}

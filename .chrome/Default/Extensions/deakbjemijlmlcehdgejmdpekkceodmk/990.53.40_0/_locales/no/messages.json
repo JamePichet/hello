@@ -1,0 +1,347 @@
+{
+	"LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+		"message":"Check Point SandBlast Agent for nettlesere"
+	},
+	"LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+		"message":"Fjern side fra pålitelige sider"
+	},
+	"LOCALE_SCAN_SITE": {
+		"message":"Sjekk side"
+	},
+	"LOCALE_COLLECT_LOGS": {
+		"message":"Hent logger"
+	},
+	"LOCALE_SEND_FEEDBACK": {
+		"message":"Send tilbakemelding"
+	},
+	"LOCALE_SAVE_FILE_WITHOUT_TEX": {
+		"message":"Lagre fil uten Threat Extraction"
+	},
+	"LOCALE_OPTIONS": {
+		"message":"Innstillinger"
+	},
+	"LOCALE_POPUP_TITLE": {
+		"message":"Check Point SandBlast"
+	},
+	"LOCALE_NO_DOWNLOADS_FOUND": {
+		"message":"Ingen nedlastinger funnet"
+	},
+	"LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+		"message":"Slett fullførte"
+	},
+	"LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+		"message":"Installasjon av en hotfix på serveren er påkrevet, vennligst se sk108695"
+	},
+	"LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+		"message":"UserCheck portal er ikke tilgjengelig"
+	},
+	"LOCALE_COULD_NOT_CONTACT_SERVER": {
+		"message":"Fikk ikke kontakt med tjeneren"
+	},
+	"LOCALE_ERROR_COLON": {
+		"message":"Feilmelding: "
+	},
+	"LOCALE_NO_SERVER_CONFIGURED": {
+		"message":"Ingen tjener konfigurert"
+	},
+	"LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+		"message":"Tjeneren svarte ikke på forespørselen raskt nok"
+	},
+	"LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+		"message":"Tjeneren svarte med et uventet svar"
+	},
+	"LOCALE_INVALID_API_KEY": {
+		"message":"API nøkkel er ikke gyldig, vennligst sjekk ditt abonnement"
+	},
+	"LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+		"message":"Kvoteabonnementet har utløpt"
+	},
+    "LOCALE_PASSWORD_REUSE_TITLE": {
+    	"message":"Jobbpassord er eksponert"
+    },	  
+	"LOCALE_SUCCESSFULLY_INSTALLED": {
+		"message":"Installasjonen var vellykket"
+	},
+	"LOCALE_DOWNLOAD_CANCELLED": {
+		"message":"Nedlastning avbrutt"
+	},
+	"LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+		"message":"Tilgang til filen er blokkert"
+	},
+	"LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION":{
+		"message":"Kunne ikke laste opp fil for inspeksjon"
+	},
+	"LOCALE_FAILED_TO_CLEAN_FILE": {
+		"message":"Vask av fil feilet"
+	},
+	"LOCALE_AWAITING_FILE_INSPECTION": {
+		"message":"Avventer inspeksjon"
+	},
+	"LOCALE_FAILED_TO_INSPECT_FILE": {
+		"message":"Inspeksjon av fil feilet"
+	},
+	"LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+		"message":"Tjeneste for inspeksjon av fil er ikke tilgjengelig"
+	},
+	"LOCALE_FILE_DOWNLOADED": {
+		"message":"Orginal fil ble lastet ned"
+	},
+	"LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+		"message":"Kunne ikke laste ned fil"
+	},
+	"LOCALE_TRY_AGAIN": {
+		"message":"Vennligst prøv igjen om du stoler på denne siden"
+	},
+	"LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+		"message":"Den original filen vil lastes ned når inspeksjon er fullført"
+	},
+	"LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+		"message":"Den originale filen er blokkert"
+	},
+	"LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+		"message":"Kunne ikke finne orginal fil"
+	},
+	"LOCALE_RETRY": {
+		"message":"Prøv igjen"
+	},
+	"LOCALE_NO_THREATS_WERE_FOUND": {
+		"message":"Ingen trusler ble funnet"
+	},
+	"LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+		"message":"Den orginale filen er skadelig"
+	},
+	"LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+		"message":"Nedlastet fil er skadelig"
+	},
+	"LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+		"message":"Vennligst ta kontakt med system ansvarlig"
+	},
+	"LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+		"message":"Den originale filen er skadelig og er ikke tilgjengelig"
+	},
+	"LOCALE_FILE_TYPE_IS_PROHIBITED": {
+		"message":"Filtypen er ikke tillatt"
+	},
+	"LOCALE_SECURELY_DOWNLOADING": {
+		"message":"Sikker nedlastning..."
+	},
+	"LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+		"message":"Filen er for stor for inspeksjon"
+	},
+	"LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+		"message":"Filen kan være skadelig siden den var for stor til å kunne inspiseres"
+	},
+	"LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+		"message":"Filen er beskyttet med passord"
+	},
+	"LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+		"message":"Filen er passordbeskyttet og er derfor ikke lov å laste ned"
+	},
+	"LOCALE_SCAN_FINISHED": {
+		"message":"Sjekken er ferdig"
+	},	
+	"LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+		"message":"Avslutt sjekk. Jeg stoler på denne siden."
+	},
+	"LOCALE_VIEW_FILE": {
+		"message":"Vis fil"
+	},
+	"LOCALE_SHOW_IN_FOLDER": {
+		"message":"Vis i mappe"
+	},
+	"LOCALE_ABOART_DOWNLOAD": {
+		"message":"Avbryt nedlastningen"
+	},
+	"LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+		"message":"Filen ble konvertert til PDF"
+	},
+	"LOCALE_FILE_WAS_CLEANED": {
+		"message":"Mulig skadelig innhold ble fjernet fra denne filen"
+	},
+	"LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+		"message":"Det er første gang dette formularet benyttes.\nZero Phishing vil kun sjekke den første gang den benyttes."
+	},
+	"LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+		"message":"Det er anbefalt at du <b>umiddelbart bytter ditt jobbpassord</b> for å forhindre uautorisert tilgang."
+	},
+	"LOCALE_PASSWORD_REUSE_DOMAINS": {
+		"message":"Ditt jobbpassord (brukt på <span id='cor'></span>) har akkurat blir brukt på en privat side<span id='non'></span>.<br> Bruk av ditt jobbpassord på private sider er en stor sikkerhetsrisiko og ikke tillat."
+	},	
+	"LOCALE_CLOSE_TAB": {
+		"message":"Du kan lukke denne fanen og fortsette.<br>Meldingen skal normal ikke vises men skyldes et problem,&nbsp;"
+	},
+	"LOCALE_SEND_REPORT": {
+		"message":"send inn rapport om det som skjedde og forsett"
+	},
+	"LOCALE_PHISHING_TITLE": {
+		"message":"Advarsel! Villedende side ble blokkert"
+	},	
+	"LOCALE_PHISHING_DOMAINS": {
+		"message":"<p>Denne phishing siden <b>prøver</b> å utgi seg for å være <b id='siteDomain'>en annen side</b>.</p><p><a href='http://no.wikipedia.org/wiki/Phishing'>Phishing sider</a> prøver og lure deg for å <b>stjele dine detaljer</b><br>(som for eksempel, passord eller kredittkort).</p>"
+	},
+	"LOCALE_PHISHING_DETAILS": {
+		"message": "Detaljer"
+	},
+	"LOCALE_PHISHING_ACCESS_SITE": {
+		"message": "Der er anbefalt å bruke en søkemotor for å finne den ekte siden.<br>Hvis du forstår risikoen så kan du <a id='continueLink' href='#'>besøke denne skadelige siden.</a><br>Denne handlingen vil bli revidert."
+	},
+	"LOCALE_PHISHING_INCORRECT": {
+		"message": "Hvis dette ikke er korrekt,"
+	},
+	"LOCALE_PHISHING_SEND_REPORT": {
+		"message": "meld fra"
+	},
+	"LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": { 
+		"message": "meld fra og forsett"
+	},
+	"LOCALE_PHISHING_URL": {
+		"message": "URL"
+	},
+	"LOCALE_PHISHING_SITE_TITLE": {
+		"message": "Tittel"
+	},
+	"LOCALE_PHISHING_REFERENCE": {
+		"message": "Referanse"
+	},
+	"LOCALE_DOWNLOADING_FILE": {
+		"message":"Laster ned fil"
+	},
+	"LOCALE_FINISHED_SCANNING_FILE": {
+		"message":"Sjekk av fil er ferdig"
+	},
+	"LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+		"message":"Basert på sikkerhetskrav, ble filen konvertert til PDF for å fjerne sikkerhetsrisikoer"
+	},
+	"LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+		"message":"Basert på sikkerhetskrav, ble innhold som kan utgjøre en trussel fjernet fra filen"
+	},
+	"LOCALE_SCANNING_FILE_FOR_THREATS": {
+		"message":"Sjekker filen for mulige trusler"
+	},
+	"LOCALE_GET_ORIGINAL": {
+		"message":"Hent original"
+	},
+	"LOCALE_SHOW_MORE": {
+		"message":"Vis mer"
+	},
+	"LOCALE_SHOW_LESS": {
+		"message":"Vis mindre"
+	},
+	"LOCALE_NOW": {
+		"message":"Nå"
+	},
+	"LOCALE_SECONDS": {
+		"message":"sekunder"
+	},
+	"LOCALE_1_MINUTE_AGO": {
+		"message":"ett minutt siden"
+	},
+	"LOCALE_MINUTES": {
+		"message":"minutter"
+	},
+	"LOCALE_1_HOUR_AGO": {
+		"message":"en time siden"
+	},
+	"LOCALE_HOURS": {
+		"message":"timer"
+	},
+	"LOCALE_YESTERDAY": {
+		"message":"i går"
+	},
+	"LOCALE_DAYS": {
+		"message":"dager"
+	},
+	"LOCALE_LAST_WEEK": {
+		"message":"forrige uke"
+	},
+	"LOCALE_WEEKS": {
+		"message":"uker"
+	},
+	"LOCALE_AGO": {
+		"message":"siden"
+	},
+	"LOCALE_PHISHING_SECTION_DESCRIPTION": {
+		"message":"Beskytt mot identitetstyveri på phishing sider."
+	},
+	"LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+		"message":"Phishing er et forsøk på å få tak i sensitiv informasjon som brukernavn, passord og kredittkortdetaljer ved å sette opp websider som utgir seg for å være en annen side enn det den egentlig er. ZoneAlarm Anti-Phishing vil sjekke websiden før du får anledning til å skrive inn dine detaljer og vil melde fra om det er den ekte siden eller en side som prøver å lure deg. Vi anbefaler på det sterkeste å la ZoneAlarm Anti-Phishing være på for å forhinde phishing angrep"
+	},
+	"LOCALE_OPTIONS_DISABLED_STATE": {
+		"message":"Oppsett er sentralt styrt."
+	},
+	"LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+		"message":"Lisensen er ugyldig."
+	},
+	"LOCALE_PUNCTUATION_FULL_STOP": {
+		"message":". "
+	},
+	"LOCALE_SCANNING": {
+		"message":"Sjekker"
+	},
+	"LOCALE_BLOCKED": {
+		"message":"Blokkert"
+	},
+	"LOCALE_SCANNING_BY_ZERO_PHISHING": {
+		"message":"Sjekker siden med SandBlast Zero Phishing"
+	},
+	"LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+		"message":"Blokkert av SandBlast Zero Phishing"
+	},
+	"LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+		"message":"Sjekket av Zero Phishing"
+	},
+	"LOCALE_UNSECURED_WARNING": {
+		"message":"Advarsel! Informasjonen du skriver inn her (HTTPS er ikke i bruk) kan være synlig for andre."
+	},
+	"LOCALE_HIDE_DETAILS": {
+		"message":"Gjem detaljer"
+	},
+	"LOCALE_PASSED_SCAN": {
+		"message":"Skanning avsluttet"
+	},
+	"LOCALE_REPUTATION_INDICATOR": {
+		"message":"Denne side er klassifisert som <i>Skadelig/Phishing</i>"
+	},
+	"LOCALE_UNKNOWN_INDICATOR": {
+		"message":"Denne siden er helt ny eller til nå ukjent"
+	},
+	"LOCALE_OFFLINE_INDICATOR": {
+		"message":"Offline side spør etter sensitive data"
+	},
+	"LOCALE_UNSECURED_INDICATOR": {
+		"message":"Usikret webside ber om sensitive data"
+	},
+	"LOCALE_ADDRESS_INDICATOR": {
+		"message":"Sidens adresse ser ikke riktig ut"
+	},
+	"LOCALE_CHARACTERISTICS_INDICATOR": {
+		"message":"Siden har mistenkelige likheter med phishing sider"
+	},
+	"LOCALE_RESEMBLANCE_INDICATOR": {
+		"message":"Siden har likheter med %alleged_domain%"
+	},
+	"LOCALE_REPORT_INCORRECT_PII": {
+		"message":"Rapporter at denne siden ikke spurte etter sensitive data"
+	},
+	"LOCALE_SWITCH_TO_HTTPS": {
+		"message":"Ta meg til den sikrede versjonen av denne siden"
+	},
+	"LOCALE_DONT_SHOW_AGAIN": {
+		"message":"Ikke vis dette igjen"
+	},
+	"LOCALE_CHANGE_PASSWORD": {
+		"message":"Hjelp meg å bytte passordet"
+	},
+	"LOCALE_USING_DEFAULT_PASSWORD": {
+		"message":"Bruker standardpassordet"
+	},
+	"LOCALE_LOADING": {
+		"message":"Laster"
+	},
+	"LOCALE_WEAK_PASSWORD": {
+		"message":"Advarsel! Du prøve å benytte et password som er vanlig og lett å gjette"
+	},
+	"LOCALE_USED_IN": {
+		"message":"brukt i"
+	}
+}

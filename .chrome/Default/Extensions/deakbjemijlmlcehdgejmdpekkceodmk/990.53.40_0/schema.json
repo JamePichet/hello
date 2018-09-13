@@ -1,0 +1,506 @@
+{
+	"type": "object",
+	"properties": {
+		"server": {
+			"type": "string"
+		},
+		"override_user_settings_minutes": {
+			"type": "integer"
+		},
+		"docs": {
+			"type": "integer"
+		},
+		"other": {
+			"type": "integer"
+		},
+		"unsupported": {
+			"type": "integer"
+		},
+		"block_encrypted": {
+			"type": "boolean"
+		},
+		"block_get_original": {
+			"type": "boolean"
+		},
+		"fail_close": {
+			"type": "boolean"
+		},
+		"size_fail_close": {
+			"type": "boolean"
+		},
+		"sensitive_hyperlinks": {
+			"type": "boolean"
+		},
+		"macros_and_code": {
+			"type": "boolean"
+		},
+		"embedded_objects": {
+			"type": "boolean"
+		},
+		"linked_objects": {
+			"type": "boolean"
+		},
+		"database_queries": {
+			"type": "boolean"
+		},
+		"pdf_launch_app": {
+			"type": "boolean"
+		},
+		"pdf_play_audio": {
+			"type": "boolean"
+		},
+		"pdf_play_video": {
+			"type": "boolean"
+		},
+		"pdf_open_url": {
+			"type": "boolean"
+		},
+		"pdf_execute_code": {
+			"type": "boolean"
+		},
+		"pdf_submit_form": {
+			"type": "boolean"
+		},
+		"pdf_go_to_remote": {
+			"type": "boolean"
+		},
+		"custom_properties": {
+			"type": "boolean"
+		},
+		"fast_save_data": {
+			"type": "boolean"
+		},
+		"statistic_properties": {
+			"type": "boolean"
+		},
+		"summary_properties": {
+			"type": "boolean"
+		},
+		"pdf": {
+			"type": "integer"
+		},
+		"fdf": {
+			"type": "integer"
+		},
+		"doc": {
+			"type": "integer"
+		},
+		"docx": {
+			"type": "integer"
+		},
+		"docm": {
+			"type": "integer"
+		},
+		"dotx": {
+			"type": "integer"
+		},
+		"dotm": {
+			"type": "integer"
+		},
+		"dot": {
+			"type": "integer"
+		},
+		"xls": {
+			"type": "integer"
+		},
+		"xlsx": {
+			"type": "integer"
+		},
+		"xlsm": {
+			"type": "integer"
+		},
+		"xlsb": {
+			"type": "integer"
+		},
+		"xltx": {
+			"type": "integer"
+		},
+		"xltm": {
+			"type": "integer"
+		},
+		"xlam": {
+			"type": "integer"
+		},
+		"ppt": {
+			"type": "integer"
+		},
+		"pptx": {
+			"type": "integer"
+		},
+		"pptm": {
+			"type": "integer"
+		},
+		"potx": {
+			"type": "integer"
+		},
+		"potm": {
+			"type": "integer"
+		},
+		"ppam": {
+			"type": "integer"
+		},
+		"ppsx": {
+			"type": "integer"
+		},
+		"ppsm": {
+			"type": "integer"
+		},
+		"pps": {
+			"type": "integer"
+		},
+		"pot": {
+			"type": "integer"
+		},
+		"ppa": {
+			"type": "integer"
+		},
+		"exe": {
+			"type": "integer"
+		},
+		"zip": {
+			"type": "integer"
+		},
+		"tar": {
+			"type": "integer"
+		},
+		"rar": {
+			"type": "integer"
+		},
+		"rtf": {
+			"type": "integer"
+		},
+		"xlm": {
+			"type": "integer"
+		},
+		"xla": {
+			"type": "integer"
+		},
+		"xll": {
+			"type": "integer"
+		},
+		"xlw": {
+			"type": "integer"
+		},
+		"sldx": {
+			"type": "integer"
+		},
+		"sldm": {
+			"type": "integer"
+		},
+		"csv": {
+			"type": "integer"
+		},
+		"scr": {
+			"type": "integer"
+		},
+		"swf": {
+			"type": "integer"
+		},
+		"hwp": {
+			"type": "integer"
+		},
+		"jar": {
+			"type": "integer"
+		},
+		"cab": {
+			"type": "integer"
+		},
+		"tgz": {
+			"type": "integer"
+		},
+		"pif": {
+			"type": "integer"
+		},
+		"7z": {
+			"type": "integer"
+		},
+		"bz2": {
+			"type": "integer"
+		},
+		"com": {
+			"type": "integer"
+		},
+		"cpl": {
+			"type": "integer"
+		},
+		"gz": {
+			"type": "integer"
+		},
+		"iso": {
+			"type": "integer"
+		},
+		"vba": {
+			"type": "integer"
+		},
+		"vbe": {
+			"type": "integer"
+		},
+		"vbs": {
+			"type": "integer"
+		},
+		"wsf": {
+			"type": "integer"
+		},
+		"wsh": {
+			"type": "integer"
+		},
+		"xlt": {
+			"type": "integer"
+		},
+		"file_protection_enabled": {
+			"type": "boolean"
+		},
+		"identity_protection_enabled": {
+			"type": "boolean"
+		},
+		"browsing_protection_enabled": {
+			"type": "boolean"
+		},
+		"original_file_option": {
+			"type": "integer"
+		},
+		"excluded_domains": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"protected_domains": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"options_disabled": {
+			"type": "boolean"
+		},
+		"show_identity_protection": {
+			"type": "boolean"
+		},
+		"show_threat_prevention": {
+			"type": "boolean"
+		},
+		"show_server": {
+			"type": "boolean"
+		},
+		"append_http_header": {
+			"type": "boolean"
+		},
+		"max_file_size": {
+			"type": "integer"
+		},
+		"show_notifications": {
+			"type": "boolean"
+		},
+		"userid": {
+			"type": "string"
+		},
+		"tex_profile_name": {
+			"type": "string"
+		},
+		"te_rule_id": {
+			"type": "integer"
+		},
+		"phishing_detection_mode": {
+			"type": "integer"
+		},
+		"password_reuse_mode": {
+			"type": "integer"
+		},
+		"theft_logs_mode": {
+			"type": "integer"
+		},
+		"logs_enabled": {
+			"type": "boolean"
+		},
+		"api_key": {
+			"type": "string"
+		},
+		"permit_continue_anyway": {
+			"type": "boolean"
+		},
+		"permit_cancel_scan": {
+			"type": "boolean"
+		},
+		"allowed_file_types": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"blocked_file_types": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"working_with_agent": {
+			"type": "boolean"
+		},
+		"agent_port": {
+			"type": "integer"
+		},
+		"agent_api_key": {
+			"type": "string"
+		},
+		"send_file_b64_to_agent": {
+			"type": "boolean"
+		},
+		"te_cloud_api_key": {
+			"type": "string"
+		},
+		"show_notifications_on_background_te": {
+			"type": "boolean"
+		},
+		"use_te_cloud": {
+			"type": "integer"
+		},
+		"te_cloud_server": {
+			"type": "string"
+		},
+		"log_server": {
+			"type": "string"
+		},
+		"log_api_key": {
+			"type": "string"
+		},
+		"manual_scan_disabled": {
+			"type": "boolean"
+		},
+		"te_use_recommanded_environment": {
+			"type": "boolean"
+		},
+		"te_environments": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"demo_key": {
+			"type": "string"
+		},
+		"get_policy_from_server": {
+			"type": "boolean"
+		},
+		"te_timeout": {
+			"type": "integer"
+		},
+		"tex_parts_codes": {
+			"type": "array",
+			"items": {
+				"type": "integer"
+			}
+		},
+		"machine_name": {
+			"type": "string"
+		},
+		"treat_xls_as_csv": {
+			"type": "boolean"
+		},
+		"server_fingerprint": {
+			"type": "string"
+		},
+		"show_urlf": {
+			"type": "boolean"
+		},
+		"urlf_enabled": {
+			"type": "boolean"
+		},
+		"urlf_blocked_cats": {
+			"type": "array",
+			"items": {
+				"type": "integer"
+			}
+		},
+		"bullying_enforced_cats": {
+			"type": "array",
+			"items": {
+				"type": "integer"
+			}
+		},
+		"urlf_level": {
+			"type": "string"
+		},
+		"urlf_permit_continue_anyway": {
+			"type": "boolean"
+		},
+		"urlf_force_safe_search": {
+			"type": "boolean"
+		},
+		"urlf_block_unsafe_search_engines": {
+			"type": "boolean"
+		},
+		"urlf_logs_mode": {
+			"type": "boolean"
+		},
+		"urlf_mode": {
+			"type": "integer"
+		},
+		"anti_bullying_mode": {
+			"type": "integer"
+		},
+		"admin_email": {
+			"type": "string"
+		},
+		"show_admin_email": {
+			"type": "boolean"
+		},
+		"show_admin_analytics": {
+			"type": "boolean"
+		},
+		"admin_analytics": {
+			"type": "string"
+		},
+		"user_check_logo": {
+			"type": "string"
+		},
+		"user_check_title": {
+			"type": "string"
+		},
+		"user_check_description": {
+			"type": "string"
+		},	
+		"urlf_cache_expire": {
+			"type": "integer"
+		},
+		"urlf_enable_anti_bullying": {
+			"type": "boolean"
+		},
+		"urlf_enable_anti_bullying_website": {
+			"type": "boolean"
+		},
+		"urlf_fail_mode": {
+			"type": "string"
+		},
+		"blacklist": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"word_blacklist": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"whitelist": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			}
+		},
+		"urlf_service_timeout": {
+			"type": "integer"
+		},
+		"urlf_hold_mode": {
+			"type": "string"
+		},
+		"hidden_autofill_prevention_enabled": {
+			"type": "boolean"
+		},
+		"anti_bullying_beep_enabled": {
+			"type": "boolean"
+		}
+	}
+}

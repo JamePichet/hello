@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "1 uur geleden"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "1 minuut geleden"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "Download stoppen"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "Stop scannen. Ik vertrouw deze site."
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "Toegang tot dit document voor de de eerste keer. \nHet wordt slechts één keer gescanned"
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "Toegang tot het bestand is geblokkeerd"
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "Website adres is verdacht"
+   },
+   "LOCALE_AGO": {
+      "message": "geleden"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "Wachten op inspectie van het bestand"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "Geblokkeerd"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Geblokeerd door Zero Phishing"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "Verander wachtwoord"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "Website heeft verdachte phishing kenmerken"
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "Voltooide downloads verwijderen"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "U kunt deze tab sluiten en verder werken.\u003Cbr>Als u deze foutmelding bereikt,&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "Logs verzamelen"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "Kan geen verbinding met de server maken"
+   },
+   "LOCALE_DAYS": {
+      "message": "dagen"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "niet nog een keer laten zien"
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": "Gedownload bestand is kwaadaardig"
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "Bestand downloaden"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "Download geannuleerd"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "Fout: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "Fout bij ophalen origineel bestand"
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "Niet gelukt om veilige versie van het bestand te maken"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "Fout bij downloaden van het bestand"
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "Fout bij het inspecteren van het bestand"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "Fout bij het uploaden van het bestand voor inspectie"
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "Origineel bestand gedownload"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Bestand overschreidt maximum inspectie grootte"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "Bestand is beveiligd met een wachtwoord"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "Bestand is beveiligd met een wachtwoord en daarom verboden"
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Bestand bevat mogelijk risico's omdat het de maximum inspectie grootte overschreidt"
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "Dit bestandstype is niet toegestaan"
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "Potentieel kwaadaardige elementen zijn verwijderd uit het bestand"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "Bestand geconverteerd naar PDF"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "Op basis van het bedrijfsbeleid, werd het bestand geconverteerd naar PDF om veiligheidsrisico's te vermijden."
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "Klaar met scannen van het bestand"
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "Krijg origineel"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "Details verbergen"
+   },
+   "LOCALE_HOURS": {
+      "message": "uren"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "Om je account veilig en toegankelijk te houden dien je\u003Cbr>\u003Cb>direct je corporate wachtwoord te wijzigen.\u003C/b>"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "Inspectie service is niet beschikbaar"
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "Een hotfix voor deze server is vereist, zie sk108695"
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "API sleutel is incorrect, controleer uw subscriptie"
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "afgelopen week"
+   },
+   "LOCALE_LOADING": {
+      "message": "Laden"
+   },
+   "LOCALE_MINUTES": {
+      "message": "minuten"
+   },
+   "LOCALE_NOW": {
+      "message": "Nu"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "Geen downloads gevonden"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "Geen server adres ingesteld"
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "Geen dreigingen gevonden"
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "Offline pagina vraagt om gevoelige gegevens"
+   },
+   "LOCALE_OPTIONS": {
+      "message": "Opties"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "Uw extensie wordt centraal beheerd."
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "Licentie is ongeldig"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "Origineel bestand is kwaadaardig"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "Origineel bestand is kwaadwaardig en kan niet worden geopend"
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "Origineel bestand is geblokkeerd"
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "Origineel bestand wordt gedownload zodra de inspectie voltooid is"
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "scan geslaagd"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "Uw bedrijfs wachtwoord (gebruikt in \u003Cspan id='cor'>\u003C/span>) is zojuist kenbaar gemaakt op een externe website \u003Cspan id='non'>\u003C/span>.\u003Cbr> Het gebruik van uw bedrijfs gegevens op externe websites is gevaarlijk en verboden."
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "Bedrijfs wachtwoord hergebruikt"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "Voor toegang tot de echte site wordt het gebruik van een zoekmachine aangeraden.\u003Cbr>Begrijpt u de risico's, dan kunt u \u003Ca id='continueLink' href='#'>de geïnfecteerd website bezoeken.\u003C/a>\u003Cbr>Deze actie zal worden gelogd."
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "Details"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp> Deze phishing site kan zich \u003Cb>voordoen\u003C/b> als \u003Cb id='siteDomain'>een andere site \u003C/b>.\u003C/p>\u003Cp>\u003Ca href='http://nl.wikipedia.org/wiki/Phishing'>Phishing sites\u003C/a> Mogelijke poging tot het \u003Cb>stelen van persoonlijke gegevens\u003C/b> zoals wachtwoorden of bank informatie.\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "Als dit niet juist is,"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "Referentie"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Beveilig tegen identiteitsdiefstal door phishing sites."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "Phishing is een frauduleus verzoek tot het verkrijgen van gevoelige informatie zoals gebruikersnamen, wachtwoorden en creditkaart details, door zich voor te doen als een legitieme website. ZoneAlarm Anti-Phishing voert een scan uit van de website voordat u gevoelige en persoonlijke informatie kunt invoeren en zal u informeren wanneer het een valide aanvraag is, of phising aanval. We raden ten strengste aan ZoneAlarm Anti-Phishing aan te laten om phishing aanvallen te voorkomen."
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "verstuur rapport"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "verstuur rapport en ga verder"
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "Titel"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "Pas op! Misleidende website geblokkeerd"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "Neem contact op met uw systeem beheerder"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "Op basis van het bedrijfsbeleid, werden mogelijk schadelijke elementen uit dit bestand verwijderd"
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": "gestopt"
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "Quota van uw subscriptie is verlopen"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "Website uit vertrouwde websites verwijderen"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "Meld dat deze website geen gevoelige gegevens heeft aangevraagd"
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "De site is geclassificeerd als \u003Ci>Kwaadaardig/Phishing\u003C/i>"
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "Website vertoont gelijkenissen met %alleged_domain%"
+   },
+   "LOCALE_RETRY": {
+      "message": "Probeer opnieuw"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Bestand opslaan zonder inspectie"
+   },
+   "LOCALE_SCANNING": {
+      "message": "Scannen"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Scannen door Zero Phishing"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "scant bestand op bedreigingen"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "Klaar met scannen"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "Scan website"
+   },
+   "LOCALE_SECONDS": {
+      "message": "seconden"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "Veilig downloaden..."
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "Feedback versturen"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "Verstuur rapport en ga verder"
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "Server reageerde niet op tijd"
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "De server gaf een onverwachte reactie"
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "Openen in folder"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "Laat minder zien"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "Laat meer zien"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "Installatie succesvol uitgevoerd"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Check Point SandBlast Agent voor Browsers"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "Breng me naar de beveiligde versie van deze site"
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "Probeer het nogmaals als u de site vertrouwt"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "De site is erg nieuw of volledig onbekend"
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "Onbeveiligde website vraagt gevoelige gegevens aan"
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "Pas op! Alle informatie hier ingegeven (niet HTTPS website) is zichtbaar voor anderen."
+   },
+   "LOCALE_USED_IN": {
+      "message": "Gebruikt in"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "UserCheck portal is momenteel niet bereikbaar"
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "Standaard wachtwoord"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Gecontroleerd door Zero Phishing"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "Open bestand"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "LET OP! Je maakt gebruik van een zwak wachtwoord"
+   },
+   "LOCALE_WEEKS": {
+      "message": "weken"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "Gisteren"
+   }
+}

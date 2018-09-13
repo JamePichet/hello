@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "For 1 time siden"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "For 1 minut siden"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "Afbryd download"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "Afbryd scanning, jeg har tillid til dette websted."
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "Checker denne form-type for første gang.\nZero Phishing vil kun scanne denne ene gang."
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "Adgang til filen er blokeret"
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "Webside adressen er tvivlsom"
+   },
+   "LOCALE_AGO": {
+      "message": "siden"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "Afventer inspektion af filen"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "Blokeret"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Blokeret af Zero Phishing"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "Hjælp til passwordskifte"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "Websiden har karakter af mistænkelig phishing"
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "Sletning afsluttet"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "Du kan lukke denne fane og fortsætte dit arbejde.\u003Cbr>Hvis du har modtaget denne besked ved følgende fejl,&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "Indsamling af logbeskeder"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "Der kunne ikke oprettes forbindelse til serveren"
+   },
+   "LOCALE_DAYS": {
+      "message": "dage"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "Vis ikke dette igen"
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": " Den downloadede fil er inficeret"
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "Downloader fil"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "Download blev annulleret"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "Fejlbesked: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "Hentning af originalfilen har fejlet"
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "Rensning af filen er mislykket"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "Download af filen er mislykket"
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "Filinspektion er mislykket"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "Upload af filen for inspektion er mislykket"
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "Den originale fil er downloaded"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Filen overskrider den maksimale størrelse for inspektion"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "Filen er password beskyttet"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "Filen er password beskyttet og derfor ikke tilladt"
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Filen kan indeholde risici, da den maksimale størrelse for inspektion er overskredet"
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "Filtypen er ikke tilladt"
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "Mulige skadelige elementer er fjernet fra filen"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "Filen er blevet konverteret til PDF-format"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "I henhold til virksomhedens sikkerhedspolitik, er filen konverteret til PDF-format, hvorved sikkerhedsrisici er fjernet"
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "Filscanning afsluttet"
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "Hent originalfil"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "Skjul detaljer"
+   },
+   "LOCALE_HOURS": {
+      "message": "timer"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "For at sikre dine brugeroplysninger\u003Cbr>\u003Cb>anbefales det omgående at forny dit AD-password.\u003C/b>"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "Filinspektionsservicen er ikke tilgængelig"
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "Installation af hotfix på serveren er påkrævet, se reference i SK-artikel, sk108695"
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "API key er ikke gyldig, check venligst dit abonnement"
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "sidste uge"
+   },
+   "LOCALE_LOADING": {
+      "message": "Henter"
+   },
+   "LOCALE_MINUTES": {
+      "message": "minutter"
+   },
+   "LOCALE_NOW": {
+      "message": "Nu"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "Ingen downloadede filer fundet"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "Ingen server er konfigureret"
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "Ingen trusler blev fundet"
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "Offline webside spørger efter følsomme data"
+   },
+   "LOCALE_OPTIONS": {
+      "message": "Valgmuligheder"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "Din programudvidelse er centralt styret."
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "Licensen er ugyldig"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "Den originale fil er inficeret"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "Den originale fil er inficeret og kan ikke tilgås"
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "Den opriginale fil blev blokeret"
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "Den originale fil vil blive downloaded, når inspektion er fuldført"
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "Scanning afsluttet"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "Dit AD-password (benyttet i \u003Cspan id='cor'>\u003C/span>) er netop brugt som adgangskode til eksternt websted\u003Cspan id='non'>\u003C/span>.\u003Cbr> Brug af dit AD-logon oplysninger som adgang til eksterne websteder er risikofyldt og ikke tilladt."
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "Dit interne password er benyttet eksternt"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "For at få adgang til det ægte websted, anbefales det at benytte en anerkendt søgemaskine.\u003Cbr>Hvis du accepterer risikoen, kan du fortsætte til det inficerede websted:\u003Ca id='continueLink' href='#'>\u003C/a>\u003Cbr>Din handling vil blive logget."
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "Detaljer"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp>Dette phishing websted \u003Cb>foregiver\u003C/b> at være \u003Cb id='siteDomain'>et andet websted\u003C/b>.\u003C/p>\u003Cp>\u003Ca href='https://da.wikipedia.org/wiki/Phishing'>Phishing websteder\u003C/a> forsøger via svindel at \u003Cb>franarre dig privat information\u003C/b>\u003Cbr>(f.eks. passwords eller kreditkort information).\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "Hvis dette ikke er korrekt,"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "Reference"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Beskyt for identitetstyveri fra pishing websteder."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "Phishing er et svindelagtigt forsøg på at franarre personer følsom information som brugernavn, passwords og kreditkortdetaljer, ved at maskere sig bag en troværdig webside. ZoneAlarm Anti-Phishing vil scanne websider før du indtaster personfølsom information og vil informere om siden er troværdig eller er forsøg på phishing. Vi anbefaler stærkt, at du beholder ZoneAlarm Anti-Phishing slået til, for at undgå at blive udsat for phishing angreb."
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "send en fejlrapport"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "send en fejlrapport og fortsæt"
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "Titel"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "Bemærk! Vildledende websted er blevet blokeret"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "Venligst kontakt administrator"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "Baseret på virksomhedens sikkerhedspolitik, er potentielt skadelige elementer fjernet fra filen"
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": ". "
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "Abonnements-kvota er overskredet"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "Slet websted fra websteder du har tillid til"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "Rapportér, at denne webside ikke forespørger efter følsomme data"
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "Denne webside er klassificeret som \u003Ci>skadeligt indhold/phishing\u003C/i>"
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "Websiden minder mistænkeligt meget om %alleged_domain%"
+   },
+   "LOCALE_RETRY": {
+      "message": "Forsøg igen"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Gem fil uden Threat Extraction"
+   },
+   "LOCALE_SCANNING": {
+      "message": "Scanner"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Scannes nu af Zero Phishing"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "Scanner filen for trusler"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "Scanning er fuldført"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "Scan websted"
+   },
+   "LOCALE_SECONDS": {
+      "message": "sekunder"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "Sikker download pågår..."
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "Send tilbagesvar"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "send en rapport og fortsæt"
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "Serveren har ikke svaret tilbage indenfor tidsgrænsen"
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "Serveren har returneret et uventet svar"
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "Vis i mappe"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "Vis mindre"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "Vis mere"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "Installation er fuldført"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Check Point SandBlast Agent for Browsers"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "Videredirigér mig til en sikker version af denne webside"
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "Venligst forsøg igen - men kun hvis du har tillid til dette websted"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "Denne webside er ny eller endnu ukendt"
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "Usikker webside spørger efter følsomme data"
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "Vær opmærksom på, at information, der indtastes eller uploades her (ukrypteret forbindelse til websted), vil kunne ses af andre."
+   },
+   "LOCALE_USED_IN": {
+      "message": "benyttet i"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "UserCheck portalen er ikke tilgængelig"
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "Brug standard password"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Kontrolleret af Zero Phishing"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "Se indhold af filen"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "Vær opmærksom på, at du benytter et svagt, almindelig kendt password"
+   },
+   "LOCALE_WEEKS": {
+      "message": "uger"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "i går"
+   }
+}

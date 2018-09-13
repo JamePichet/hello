@@ -1,0 +1,49 @@
+<!DOCTYPE html><html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+	<meta content="utf-8" http-equiv="encoding">
+	<title>Check Point SandBlast Agent for Browsers</title>
+	<link rel="stylesheet" href="fonts.css">
+	<link rel="stylesheet" href="popup.css">
+	<script type="text/javascript" src="lib/jquery/jquery-1.10.2.min.js"></script>
+	<script src="common.js"></script>
+	<script src="hooks_ie.js"></script>
+	<script  type="application/javascript;version=1.7" src="hooks_firefox.js"></script>
+	<script src="hooks.js"></script>
+	<script src="hooks_firefox_quantum.js"></script>
+	<script src="popup.js"></script>
+</head>
+<body>
+ 	<!--
+	 <img class="top_banner" src="icons/popup_top.png" usemap="#planetmap" />
+	 <map name="planetmap">
+	 	<area shape="rect" id="open_options" coords="385,7,405,27" href="#">
+	 </map>
+	-->
+	<div id="popup_header" class="clear-fix top_banner">
+		<div id="popup_logo_div"><span class="locale_message" data-locale-message-constnat="LOCALE_POPUP_TITLE"></span></div>
+		<div id="popup_settings_div" style="display: none;"><img alt="Settings" src="icons/settings_normal.png" id="open_options" /></div>
+	</div>
+
+
+	<div id="notifs">
+		<div>
+			<div valign="top" style="padding-left: 10px; font-size:18px; font-family: 'Open Sans Light'; font-style: italic; color: #a4a4a4;">
+				<b style="display:block; width:350px; word-break:break-all; ">&nbsp;</b>
+				<div style="padding-left: 155px;" class="locale_message" data-locale-message-constnat="LOCALE_LOADING"></div>
+				<br>
+			</div>
+			&nbsp;
+		</div>
+	</div>	
+
+	<div class="bottom_banner" src="icons/popup_top.png">
+		<div class="divider">&nbsp;</div>
+		<table width="100%"><tr>
+			<td><center><a id="clear_downloads" class="locale_message" data-locale-message-constnat="LOCALE_CLEAR_COMPLETED_DOWNLOADS"></a></center></td>
+			<td><a id="collect_logs" class="locale_message" data-locale-message-constnat="LOCALE_COLLECT_LOGS"></a></td>
+			<td><a id="report_incident" class="locale_message K12" data-locale-message-constnat="LOCALE_REPORT_INCIDENT"></a></td>
+		</tr></table>	
+	</div>
+</body>
+</html>

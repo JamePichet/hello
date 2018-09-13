@@ -1,0 +1,428 @@
+
+p
+{
+	margin: 0px;
+}
+
+/* SDB_PREVIEW_EXCLUDE_BEGIN */
+
+.portalMessage_title
+{
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background: url('/UserCheck/img/pop_up_banner.png') repeat-x center center;
+		height: 60px;
+	}
+
+.portalMessage_title_td
+{
+		padding-top: 13px;
+	}
+
+.portalMessageTableContainer
+{
+	font-family: "Segoe UI";
+	width: 100%;
+	cursor: default;
+}
+
+/* SDB_PREVIEW_EXCLUDE_END */
+
+.usercheck_body_background_class
+{
+	background: #f7f7f7 repeat scroll center center;	
+}
+
+.usercheck_main_background_class
+{
+	background: repeat-y scroll center center;	
+}
+
+.usercheck_content_table_class
+{
+	position: relative;
+	width:550px;
+	table-layout: fixed;
+	text-wrap: suppress;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 35px;
+	text-align:center;	
+}
+
+.usercheck_buttons_table_class
+{	
+	position: relative;
+	margin-top: -15px;
+	width:400px;
+	table-layout: fixed;
+	text-wrap: suppress;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+
+.usercheck_title_class
+{
+	position: relative;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: "Segoe UI";
+	font-size: 40px;
+	font-weight: 100;
+	color: #333333;
+	word-wrap:break-word;
+	width: expression( document.body.clientWidth > 599 ? "600px" : "auto" ); /* sets max-width for IE */
+	max-width: 600px; /* this sets the max-width value for all standards-compliant browsers */
+	text-align: center;
+}
+
+.usercheck_message_icon_class
+{	
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	margin-top: 35px;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+
+.usercheck_message_icon_column
+{
+	width:70px;
+}
+
+.usercheck_red_highlight
+{
+	border: 1px red solid;
+}
+
+.usercheck_red_no_highlight
+{
+	border: auto;
+}
+
+
+
+.usercheck_logo_img_div_class
+{
+	background: transparent url('cpnewlogo_1.png') no-repeat scroll;
+	background-position: center;
+	display: block;
+	/*width: auto; 
+	height: auto; 
+	margin: 0;
+	padding: 0;*/
+	position: relative;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 30px;
+}
+
+.smartField incident_id
+{
+	color: #7c7c7c;
+}
+
+.smartField orig_url
+{
+	color: 1b81ff; 
+}
+
+.usercheck_message_class
+{
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	margin-top: 0px;
+	font-family: "Segoe UI";
+	font-size: 17px;
+	color: #333333;
+	line-height: 20px;
+	text-align: center;
+	width: expression( document.body.clientWidth > 499 ? "550px" : "auto" ); /* sets max-width for IE */
+	max-width: 550px; /* this sets the max-width value for all standards-compliant browsers */
+	min-width: 550px; /* this sets the max-width value for all standards-compliant browsers */
+	text-wrap: suppress;
+	word-wrap: break-word;
+}
+
+.usercheck_url_class
+{
+	font-family: "Segoe UI";
+	font-size: 17px;
+	/* padding: 10px 15px 0px 15px; */
+	line-height: 20px;
+	text-align: left;
+	width: expression( document.body.clientWidth > 334 ? "335px" : "auto" ); /* sets max-width for IE */
+	max-width: 335px; /* this sets the max-width value for all standards-compliant browsers */
+	text-decoration: underline;
+	color: #3778FF;
+	text-wrap: suppress;
+        word-wrap: break-word;
+}
+
+.usercheck_url_class:hover
+{
+	color: #1B2F5B;
+	text-decoration: underline;
+}
+
+.usercheck_disabled_url_class
+{
+	color: #1B2F5B;
+	text-decoration: none;
+	cursor: text;
+}
+
+.usercheck_disabled_url_class:hover
+{
+	color: #1B2F5B;
+	text-decoration: none;
+	cursor: text;
+}
+
+.usercheck_textual_input_class
+{
+	
+	line-height: normal;
+		padding: 2px 2px 2px 2px;
+	margin-left: -1px;
+	margin-top: 30px;
+		width: 328px;
+	max-width: 328px;
+	min-width: 328px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	text-align: left;
+	
+}
+
+.usercheck_textual_input_class_required
+{
+	color: #8F8F8F;
+	/*border: 1px solid #92979b;*/
+}
+
+.usercheck_header_class
+{
+	vertical-align: middle;
+	text-align: center;
+	background-color: #ffffff;
+	border-bottom: 1px solid #c7c7c7;
+}
+
+.usercheck_header_table_class
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	width: 100%;
+	height: 60px;
+	/*direction:ltr;*/
+}
+
+.usercheck_company_logo_class
+{
+	position:relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	text-align: center;
+	
+	max-width: 300px;
+	max-height: 300px;
+	
+	/* SDB_PREVIEW_EXCLUDE_BEGIN */
+	width: expression( this.width > 175 ? ( this.width / this.height > 176/52 ? "176px" : "auto" ) : "auto" ); /* sets max-width for IE6 */
+	height: expression( this.height > 51 ? ( this.width / this.height > 176/52 ? "auto" : "52px" ) : "auto" ); /* sets max-height for IE6 */
+	/* SDB_PREVIEW_EXCLUDE_END */
+}
+
+.usercheck_header_left_class
+{
+}
+
+.usercheck_header_center_class
+{	
+}
+
+.usercheck_header_right_class
+{	
+}
+
+.usercheck_header_right_empty_class
+{	
+}
+
+.usercheck_page_title_class
+{
+	position: relative;
+	margin-left:auto;
+	margin-right:auto;
+	/*width: 1100px;*/
+	text-align: left;
+	font-family: "Segoe UI";
+	font-size: 23px;
+	font-weight: 100;
+	color: #FFFFFF;
+	top: -12px;
+	
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-o-user-select: text;
+	user-select: text;
+	
+}
+
+.usercheck_footer_table_class
+{
+	margin-left:auto;
+	margin-right:auto;
+	width: 100%;
+	width: 100%;
+}
+
+.footer_logo
+{	
+}
+
+.footer_no_logo
+{
+}
+
+.usercheck_footer_height_class
+{
+	height: 40px;
+	vertical-align: bottom;
+}
+
+.usercheck_footer_class
+{	
+	position: relative;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	vertical-align: bottom;
+	text-align: right;
+}
+
+.usercheck_lang_select_div_class
+{
+	
+	margin-left: 60%;
+	font-family: "Segoe UI";
+	font-size: 17px;
+	color: #333333;
+}
+
+.usercheck_lang_select_class
+{	
+	
+	float: right;
+	font-family: "Segoe UI";
+	font-size: 17px;
+	color: #333333;
+}
+
+.usercheck_ok_button_div_class
+{
+	width: 110px;
+}
+
+.usercheck_middle_button_div_class
+{
+	width: 110px;
+	/*margin-left:auto;*/
+}
+
+/* Buttons section - split into several portions for IE support. */
+
+a.button {
+	background: #4a4a4a;
+    display: block;
+    height: 28px;
+	margin-top: 15px;
+    padding-right: 14px; /* Sliding doors padding. */
+    text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	border: solid 1px #2c2c2c;
+	border-radius: 2px;
+	
+	/* Normal state right image position. */
+	background-position:  right 0px;
+}
+a.button span {
+	background: #4a4a4a;
+	display: block;
+    line-height: 28px;
+    padding: 0px 22px 0px 35px;
+	
+	/* Font styling. */
+	font-family: "Segoe UI";
+	font-weight: 600;
+	font-size: 17px;
+	color: #FFFFFF;
+	
+	/* Cursor styling. */
+	cursor: pointer;
+	
+	/* Normal state left image position. */
+	background-position:  left 0px;
+}
+
+a.cancel_button span {
+    padding: 0px 20px 0px 30px;
+}
+
+a.buttonHover {
+	/* Normal state right image position. */
+	background-position: right -41px;
+}
+
+a.buttonHover span {
+	/* Normal state left image position. */
+	background-position: left -41px;
+}
+
+a.buttonActive {
+	/* Normal state right image position. */
+	background-position: right -82px;
+}
+
+a.buttonActive span {
+	/* Normal state left image position. */
+	background-position: left -82px;
+}
+
+a.buttonDisabled {
+	/* Normal state right image position. */
+	background-position: right -123px;
+	cursor: default;
+}
+
+a.buttonDisabled span {
+	/* Text color. */
+	color: #BABABA;
+	
+	display: block;
+	line-height: 41px;
+	padding: 0px 22px 0px 25px;
+	
+	/* Cursor styling. */
+	cursor: default;
+	
+	/* Normal state left image position. */
+	background-position: left -123px;
+}
+
+a.buttonDisabled:hover {
+	color: #BABABA;
+}
+

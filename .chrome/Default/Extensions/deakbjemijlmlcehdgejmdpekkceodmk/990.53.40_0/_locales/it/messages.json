@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "1 ora fa"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "1 minuto fa"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "Interrompi download"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "Interrompi scansione. Mi fido di questo sito."
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "Prima accesso a questo modulo.\nZero Phishing lo sottoporrà a scansione una sola volta."
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "L’accesso al file è stato bloccato"
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "L’indirizzo del sito è ingannevole"
+   },
+   "LOCALE_AGO": {
+      "message": "fa"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "In attesa dell’ispezione del file"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "Bloccato"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Bloccato da Zero Phishing"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "Aiutami a cambiare la password"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "Il sito contiene caratteristiche di phishing sospette"
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "Cancellazione completata"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "È possibile chiudere questa scheda e continuare a lavorare.\u003Cbr>Se questo messaggio è stato visualizzato per errore,&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "Raccogli logs"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "Impossibile contattare il server"
+   },
+   "LOCALE_DAYS": {
+      "message": "giorni"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "Non visualizzare più questo messaggio"
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": "Il file scaricato è malevolo"
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "Download del file"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "Download annullato"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "Errore: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "Errore di accesso al file originale"
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "Impossibile pulire il file"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "Impossibile di scaricare il file"
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "Impossibile ispezionare il file"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "Impossibile caricare il file per l’ispezione"
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "File originale scaricato"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Dimensioni file superiori alle dimensioni massime dell’ispezione"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "Il file è protetto da password"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "Il file è protetto da password e pertanto è inaccessibile"
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Il file può contenere minacce, in quanto supera le dimensioni massime dell’ispezione"
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "Il tipo di file è proibito"
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "Gli elementi potenzialmente dannosi sono stati rimossi dal file"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "Il file è stato convertito in PDF"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "In base alla politica aziendale, il file è stato convertito in PDF per rimuovere i rischi per la sicurezza"
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "Scansione file completata"
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "Ottieni originale"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "Nascondi dettagli"
+   },
+   "LOCALE_HOURS": {
+      "message": "ore"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "Per tenere sicuro e accessibile l’account è opportuno\u003Cbr>\u003Cb>cambiare immediatamente la password aziendale.\u003C/b>"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "Il servizio di ispezione non è disponibile"
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "L’installazione di un hotfix sul server è obbligatoria, perfavore guarda sk108695"
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "La chiave API non è valida. Controlli il tuo abbonamento"
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "settimana scorsa"
+   },
+   "LOCALE_LOADING": {
+      "message": "Caricamento in corso..."
+   },
+   "LOCALE_MINUTES": {
+      "message": "minuti"
+   },
+   "LOCALE_NOW": {
+      "message": "Ora"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "Nessun download trovato"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "Nessun server configurato"
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "Nessuna minaccia trovata"
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "La pagina offline sta chiedendo dati sensibili"
+   },
+   "LOCALE_OPTIONS": {
+      "message": "Opzioni"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "L’estensione è gestita in remoto."
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "La licenza non è valida"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "Il file originale è malevolo"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "Il file originale è malevolo ed è impossibile accedervi"
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "Il file originale è stato bloccato"
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "Il file originale verrà scaricato al termine dell’ispezione del file"
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "Scansione superata"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "La password aziendale (usato in \u003Cspan id='cor'>\u003C/span>) è stata appena esposta a un sito non aziendale\u003Cspan id='non'>\u003C/span>.\u003Cbr> L’utilizzo delle credenziali aziendali con altri siti è rischioso e proibito."
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "Password aziendale esposta"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "Per accedere al vero sito è consigliabile usare un motore di ricerca.\u003Cbr>Se si comprendono i rischi, è possibile \u003Ca id='continueLink' href='#'>visitare questo sito infettato.\u003C/a>\u003Cbr>Questa Questa azione è sottoposto a rivisione."
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "Dettagli"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp>Questo sito di phishing potrebbe \u003Cb>spacciarsi\u003C/b> per un \u003Cb id='siteDomain'>altro sito\u003C/b>.\u003C/p>\u003Cp>\u003Ca href='http://en.wikipedia.org/wiki/Phishing'>I siti di phishing\u003C/a> tentano di ingannare l’utente per \u003Cb>trafugare informazioni\u003C/b>\u003Cbr>(ad esempio, password o carte di credito).\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "Se le informazioni non sono giuste,"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "Riferimento"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Protect from identity theft by phishing sites."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "Il phishing è un tentativo fraudolento per ottenere informazioni sensibili, quali nomi utente, password e dettagli delle carte di credito, spacciandosi per un sito Web affidabile. ZoneAlarm Anti-Phishing eseguirà la scansione dei siti Web prima di consentire l’inserimento di informazioni personali e avviserà l’utente se si tratta di un sito Web originale oppure di un tentativo di phishing. Consigliamo vivamente di tenere attivato ZoneAlarm Anti-Phishing, per evitare di essere esposti agli attacchi di phishing"
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "inviare un report"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "inviare un report e continuare"
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "Titolo"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "Attenzione! Sito dannoso bloccato"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "Contatti l'amministratore"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "In base alla politica aziendale, gli elementi potenzialmente dannosi sono stati rimossi da questo file"
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": ". "
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "L’abbonamento alla quota è scaduto"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "Rimuovi sito dalla lista dei siti affidabili"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "Segnala che questo sito Web non ha richiesto dati sensibili"
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "Il sito è classificato come \u003Ci>Dannoso/Phishing\u003C/i>"
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "Il sito assomiglia a %alleged_domain%"
+   },
+   "LOCALE_RETRY": {
+      "message": "Riprova"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Salva file senza Threat Extraction"
+   },
+   "LOCALE_SCANNING": {
+      "message": "Scansione"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Scansione di Zero Phishing"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "Scansione file alla ricerca di minacce"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "Scansione terminata"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "Scansione dello sito"
+   },
+   "LOCALE_SECONDS": {
+      "message": "secondi"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "Download sicuro..."
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "Invia feedback"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "inviare un report e continuare"
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "Il server non ha risposto nei tempi previsti"
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "Il server ha restituito una risposta inaspettato"
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "Mostra nella cartella"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "Nascondi dettagli"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "Mostra dettagli"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "Installazione completato"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Check Point SandBlast Agent for Browsers"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "Portami alla versione sicura di questo site"
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "Reprova, ma solo se ha fiducia in questo sito"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "Il sito è nuovissimo o completamente sconosciuto"
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "Il sito Web non protetto sta richiedendo dati sensibili"
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "Attenzione! Qualsiasi informazione specificata qui (sito Web non HTTPS) è visualizzabile da altri."
+   },
+   "LOCALE_USED_IN": {
+      "message": "usato in"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "Il portale UserCheck non è accessibile"
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "Uso password predefinita"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Verificato da Zero Phishing"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "Visualizza file"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "Attenzione! Si sta utilizzando una password debole comune"
+   },
+   "LOCALE_WEEKS": {
+      "message": "settimane"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "ieri"
+   }
+}

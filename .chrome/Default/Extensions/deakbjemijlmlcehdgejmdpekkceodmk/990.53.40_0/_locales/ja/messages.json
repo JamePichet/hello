@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "1 時間前"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "1 分前"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "ダウンロードの中止"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "スキャンを中止してこのサイトを信頼"
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "フォームへのアクセスは今回が初めてです。\nZero Phishing は初回のみスキャンを行います。"
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "ファイルへのアクセスがブロックされました"
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "疑わしいサイト アドレスです"
+   },
+   "LOCALE_AGO": {
+      "message": "前"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "ファイル インスペクションの待機中"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "ブロック"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Zero Phishingでブロック"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "パスワードの変更"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "疑わしいフィッシング詐欺の特質があります"
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "クリアしました"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "作業を続けるには、このタブを閉じます。\u003Cbr>メッセージが誤って表示された場合、&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "ログの収集"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "サーバに接続できませんでした"
+   },
+   "LOCALE_DAYS": {
+      "message": "日"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "今後は表示しない"
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": "ダウンロードしたファイルは悪質です"
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "ファイルのダウンロード中"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "ダウンロードをキャンセルしました"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "エラー: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "元のファイル取得エラー"
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "ファイルのクリーンアップに失敗しました"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "ファイルのダウンロードに失敗しました"
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "ファイルのインスペクションに失敗しました"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "インスペクションするファイルのアップロードに失敗"
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "元のファイルをダウンロードしました"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "インスペクションの最大ファイル サイズを超えています"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "パスワードで保護されています"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "ファイルはパスワード保護されているため禁止されています"
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "インスペクションの最大サイズを超えています。ファイルに脅威が含まれている可能性があります。"
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "ファイル タイプが禁止されています"
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "悪質な可能性のある要素をファイルから除去しました。"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "PDF に変換しました"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "企業ポリシーに基づいて、ファイルの脅威を取り除くために PDF 変換しました。"
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "ファイルのスキャンが完了しました"
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "元を取得"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "詳細を隠す"
+   },
+   "LOCALE_HOURS": {
+      "message": "時間"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "アカウントへのアクセスを安全な状態に保つには\u003Cbr>\u003Cb>今すぐパスワードを変更\u003C/b>してください。"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "インスペクション サービスが利用できません"
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "サーバでHotfixのインストールが必要です（sk108695を参照）。"
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "API キーが無効です。サブスクリプションを確認してください。"
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "先週"
+   },
+   "LOCALE_LOADING": {
+      "message": "読み込んでいます"
+   },
+   "LOCALE_MINUTES": {
+      "message": "分"
+   },
+   "LOCALE_NOW": {
+      "message": "今すぐ"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "ダウンロードはありません"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "サーバが未設定です"
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "脅威は見つかりませんでした"
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "重要データを求めるオフラインのページです"
+   },
+   "LOCALE_OPTIONS": {
+      "message": "オプション"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "この機能はリモート管理されています。"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "ライセンスが無効です"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "元のファイルは悪質です"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "元のファイルは悪質です。アクセスできません。"
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "元のファイルがブロックされました"
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "元のファイルはインスペクションの完了後にダウンロードされます"
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "スキャン済み"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "パスワードが(使用場所 \u003Cspan id='cor'>\u003C/span>)外部のサイト\u003Cspan id='non'>\u003C/span>にさらされました。\u003Cbr>企業の認証情報が他のサイトに使われるのは危険かつ禁止されています。"
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "パスワードが危険です"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "正規サイトに確実にアクセスするには、検索エンジンを使うことをお勧めします。\u003Cbr>リスクを理解したうえでアクセスする場合は\u003Ca id='continueLink' href='#'>このサイトに移動\u003C/a>してください。\u003Cbr>iこの操作は監査の対象になります。"
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "詳細"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp>このフィッシング サイトは\u003Cb id='siteDomain'>別のサイト\u003C/b>に\u003Cb>なりすまし\u003C/b>ている場合があります。\u003C/p>\u003Cp>\u003Ca href='http://en.wikipedia.org/wiki/Phishing'>フィッシング サイト\u003C/a>は\u003Cb>ユーザ情報を盗む\u003C/b>危険性があります\u003Cbr>(パスワードやクレジット カード情報など)。\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "このままアクセスする場合、"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "リファレンス"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Protect from identity theft by phishing sites."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "フィッシングは、信頼できる Web サイトを装ってユーザ名、パスワード、クレジットカード情報など重要な情報に不正アクセスを行って窃取しようとします。ZoneAlarm Anti-Phishing は、個人情報を入力する前に Web サイトをスキャンして、正規のサイトかフィッシング サイトか通知します。フィッシング攻撃を阻止するためにも、ZoneAlarm Anti-Phishing は有効にしておくことをお勧めします。"
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "レポートを送信する"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "問題をレポートして作業を続ける"
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "タイトル"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "不正サイトをブロックしました!"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "管理者に連絡してください"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "企業ポリシーに基づいて、悪質な可能性がある要素をファイルから除去しました。"
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": ". "
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "割り当てサブスクリプションの期限が切れています。"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "信頼できるサイトからサイトを削除"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "重要データを求められなかったので報告する"
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "サイトは「悪質/なりすまし」の危険性があります"
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "「%alleged_domain%」と似ています"
+   },
+   "LOCALE_RETRY": {
+      "message": "再試行"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Threat Extractionなしでファイルを保存"
+   },
+   "LOCALE_SCANNING": {
+      "message": "スキャン中"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Zero Phishingでスキャン中"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "ファイルの脅威スキャンを実行中"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "スキャン完了"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "サイトのスキャン"
+   },
+   "LOCALE_SECONDS": {
+      "message": "秒"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "安全にダウンロード中..."
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "感想を送る"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "問題をレポートして作業を続ける"
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "サーバが時間内に応答しませんでした"
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "サーバから予期しない応答が返されました"
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "フォルダを表示"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "隠す"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "さらに表示"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "インストール完了"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Check Point SandBlast Agent for Browsers"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "安全なサイトに移動"
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "もう一度試してください（このサイトを信頼する場合）"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "新しく作られたばかりか、完全に不明なサイトです"
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "重要データを求める安全でないサイトです"
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "情報が他人に見られる危険性があります（HTTPSでないため）!"
+   },
+   "LOCALE_USED_IN": {
+      "message": "使用場所"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "UserCheck ポータルにアクセスできません"
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "デフォルトのパスワードを使用"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Zero Phishingで検証"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "ファイルの表示"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "パスワードはよく悪用される安全性の低いものです"
+   },
+   "LOCALE_WEEKS": {
+      "message": "週間"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "昨日"
+   }
+}

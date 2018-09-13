@@ -1,0 +1,38 @@
+{
+   "background": {
+      "scripts": [ "data/homoglyph.js", "data/psl.min.js", "data/common.js", "data/phash.js", "data/cryptoJS-sha1.js", "data/cryptoJS-lib-typedarrays-min.js", "data/cryptoJS-hmac-sha256.js", "data/cryptoJS-pbkdf2.js", "data/cryptoJS-aes.js", "data/hooks.js", "data/OcrFactory.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "data/icons/CheckPointLogo_19.png"
+      },
+      "default_popup": "data/popup.html",
+      "default_title": "Check Point SandBlast Agent for Browsers"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "data/homoglyph.js", "data/common.js", "data/hooks.js", "data/content_script.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com 'unsafe-eval' blob:; object-src 'self'",
+   "default_locale": "en",
+   "description": "Protects users from advanced malware, phishing and zero-day attacks by performing real-time analysis",
+   "homepage_url": "https://www.checkpoint.com/products-solutions/zero-day-protection",
+   "icons": {
+      "128": "data/icons/CheckPointLogo_128.png",
+      "16": "data/icons/CheckPointLogo_16.png",
+      "48": "data/icons/CheckPointLogo_48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnLHptlX4hQR6IsltaCu55BhJE93GslqHvnv3Rr4fpXZiOGNk93AoAsqInWebKrdTaLKi5rI/Fh9zvq49FmDQue4lHjIpSmVtnGDNWDp7Jz9B7IF+CGlBC3S69xO4TiqImXqGkm6rDorckd+sabMS8fx55l3xArqrAye3aiOU1EfJuE8fBR1vCdiqmr50UWW+XN0nsCV3WT/YT8ulFhXof4jWkWyr8das5zBeIwbWlG9m6XLlaZLtFaWftw1FxbTJaWVSsNQhzMNG3rUKvW9XnT6JIFlnZDuwx/vwS3FmgArwn6fiykmQpDVVgkqRs8/3azgJyENKxABvuyPdfRp8jwIDAQAB",
+   "manifest_version": 2,
+   "name": "Check Point SandBlast Agent for Browsers",
+   "permissions": [ "webRequest", "webRequestBlocking", "downloads", "downloads.open", "storage", "unlimitedStorage", "notifications", "tabs", "activeTab", "history", "webNavigation", "contextMenus", "geolocation", "background", "\u003Call_urls>", "identity", "identity.email" ],
+   "short_name": "SandBlast",
+   "storage": {
+      "managed_schema": "schema.json"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "990.53.40"
+}

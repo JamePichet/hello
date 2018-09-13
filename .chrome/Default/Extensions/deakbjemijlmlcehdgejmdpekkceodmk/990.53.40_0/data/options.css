@@ -1,0 +1,1104 @@
+
+/* Chrome: remove input highlighting */
+*:focus {
+    outline: 0;
+}
+
+/* Chrome extension: disable automatic font resizing */
+body {
+	font-size: 14px;
+}
+
+/* Must do it, as the body selector does not apply to those elements */
+textarea, select, input {
+	font-family: 'Open Sans', sans-serif, "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+}
+
+.main {
+	z-index: 0;
+}
+
+/* Nicer separators */
+hr {
+	border-top: 1px dotted #b5b5b5;
+	border-bottom: none;
+	width: 100%;
+	height: 0px;
+}
+
+hr.topSeparator
+{
+	margin-bottom: 30px;
+}
+
+hr.middleSeparator
+{
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+hr.middleIntSeparator
+{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+hr.dotted-spaced-line
+{
+	background-image: linear-gradient(to right, #cecece 33%, rgba(255, 255, 255, 0) 0%);                      
+	background-size: 3px 1px;                           
+	/* if no height */
+	height: 1px;
+	border: none;
+}
+
+/** Forms */
+
+/* Fieldset are for semantic usage only */
+fieldset
+{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+
+#ulTaskbar {
+	max-width: 350px;
+	margin: 0 auto; 
+}
+
+#settings, #feedback, #upload_file, #scan_url, #debug_div {
+	padding-top: 60px;
+}
+
+.pageContentHeader {
+	height: 90px;
+	line-height: 90px;
+	vertical-align: middle;
+}
+
+.pageContentHeader h2 {
+	margin: 0;
+}
+
+.horizontalBar li.tab-header-active a {
+    color: #e3426c;
+}
+
+.uploadFileTab-body{
+	margin-left: 0;
+}
+
+.dropzone { border: 2px dashed #0087F7; border-radius: 5px; background: white; }
+
+/* Forms */
+
+fieldset
+{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+fieldset > div:not(:first-child) {
+    margin-top: 12px;
+}
+
+label.titleLabel {
+	display: block;
+	font-size: 18px;
+	color: #333333;
+}
+
+label.smallTitleLabel {
+	display: block;
+	font-size: 14px;
+	color: #333333;	
+	margin-bottom: 5px;
+}
+
+label.smallTitleLabelTE {
+	font-size: 14px;
+	color: #333333;	
+	margin-bottom: 5px;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+p.fieldExplanation
+{
+	margin: 5px 0;
+	font-size: 14px;
+	color: #909090;
+}
+
+.floating-label {
+	width: 30%;
+	float: left;
+	display: block;
+}
+
+.floating-field
+{
+	width: 70%;
+	display: block;
+	float: left;
+}
+
+.listbox
+{
+    /*border-radius: 5px;*/
+    width: 350px;
+	height: 170px;
+    padding-top: 7px;
+    padding-left: 10px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+#advancedSettingsDialogFileTypesTabs-custom .listbox {
+	width: 250px;
+}
+
+#advancedSettingsDialogFileTypesTabs-custom  .integratedButtonInput {
+    width: 170px;
+}
+
+
+.listbox > ul 
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.listbox > ul > li
+{
+	margin-bottom: 5px;
+}
+
+a.deleteButtonSmall {
+	vertical-align: middle;
+	float: right;
+	padding-right: 10px;
+	color: #868686;
+	text-decoration: none;
+	font-size: small;
+}
+
+input[type="text"] {
+	border: 1px solid #c4c4c4;
+	border-radius: 3px;
+	background-color: #ffffff;
+}
+
+textarea, .listbox {
+	border: 1px solid #c4c4c4;
+	border-radius: 3px;
+	background-color: #ffffff;	
+}
+
+input[type="button"].formInlineBtn {
+	border: 1px solid #c4c4c4;
+	border-radius: 3px;
+	background-color: #dfdfdf;
+	color: #333333;
+	height: 30px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+input[type="button"].formInlineBtnLong {
+	width: 180px;
+}
+
+input[type="button"].btnIntegrated {
+    padding: 0 !important;
+    height: 29px !important;
+    width: 77px !important;
+}
+
+/* Button that looks like a link */
+button.linkButton {
+	background: none!important;
+	border: none; 
+	padding: 0!important;
+	color: #3594ff;
+	font-size: 14px;
+	cursor: pointer;
+	font-family: 'Open Sans', sans-serif, "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;	
+}
+button.linkButton[disabled="disabled"] {
+	cursor: auto;
+	color: #CCC;
+}
+
+#fieldsetSubmit {
+	margin-bottom: 60px;
+}
+
+#settingsApplyMessage {
+	padding-left: 30px;
+}
+
+#testResultMessage {
+	margin-left: 15px;
+	padding-left: 25px;	
+	font-size: small;
+}
+
+#server_message {
+	margin-left: 15px;
+	padding-left: 25px;	
+	font-size: small;
+}
+
+#te_cloud_server_message {
+	margin-left: 15px;
+	padding-left: 25px;	
+	font-size: small;
+}
+
+.statusMessageSuccess {
+	background: url(icons/success_icon.png) left no-repeat;
+	background-size: 20px 20px;
+}
+
+.statusMessageFail {
+	background: url(icons/exclamation_icon.png) left no-repeat;
+	background-size: 20px 20px;
+}
+
+.clear-fix:after
+{
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear-fix
+{
+    zoom: 1;
+}
+
+#threatPreventionGlobalTypesListHeaders {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 12px;
+	font-size: 18px;
+	color: black;
+}
+
+#threatPreventionGlobalTypesListHeaders span:last-child {
+	margin-left: 90px;
+}
+
+ul.threatPreventionGlobalTypesList {
+	list-style: none;
+	padding: 0;
+}
+
+ul.threatPreventionGlobalTypesList li {
+	font-size: 18px; 	
+}
+
+ul.threatPreventionGlobalTypesList li:not(:last-child) {
+	margin-bottom: 0px;
+	padding-bottom: 10px;
+}
+
+ul.threatPreventionGlobalTypesList li > span, #threatPreventionGlobalTypesListHeaders > span {
+	width: 580px;
+	display: inline-block;
+}
+
+.sectionWrapper {
+	margin-top: 0px;
+}
+
+.sectionWrapper:first-child {
+	margin-top: 30px;
+}
+
+.sectionHeader div.sectionHeaderWrapper {
+	margin-top: 30px; 
+	margin-bottom: 10px;
+}
+
+.sectionHeader h2.sectionHeaderTitle {
+	float: left; 
+	width: 500px; 
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sectionHeader .sectionHeaderRight {
+	float: right;
+}
+
+.sectionHeader .sectionHeaderSwitch {
+	float: left;
+	margin-top: 3px; 
+	margin-right: 10px;
+}
+
+.sectionHeader .sectionHeaderAdvancedSettings {
+	float: left;
+	margin-top: 2px;
+	border-left: thin solid #c4c4c4;
+}
+
+.sectionDescription {
+	color: #909090;
+}
+
+.sectionDescription p {
+	margin: 0px;
+}
+
+ul.simpleHorizontalList {
+	padding: 0;
+	display: inline-block;
+	list-style: none;	
+}
+
+ul.simpleHorizontalList > li {
+	display: inline;
+}
+
+.tab-element {
+	display: none;
+}
+
+.tab-element.tab-active {
+	display: block;
+}
+
+#excludedDomainsDialog .modal-dialog {
+	width: 395px;
+}
+
+#excludedDomainsDialog .listbox {
+	margin-top: 5px;
+}
+
+#protectedDomainsDialog .modal-dialog {
+	width: 395px;
+}
+
+#protectedDomainsDialog .listbox {
+	margin-top: 5px;
+}
+
+#theftSettingsDialog .modal-dialog {
+	height: 620px;
+	width: 620px;
+}
+
+#theftSettingsDialog .modal-body {
+	width: 100%;
+	height: 480px;
+	overflow: hidden;
+}
+
+#theftSettingsDialog li > span {
+	width: 210px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#generalSettingsDialog .modal-dialog {
+	height: 600px;
+	width: 600px;
+}
+
+#generalSettingsDialog .modal-body {
+	width: 100%;
+	height: 480px;
+	overflow: hidden;
+}
+
+#generalSettingsDialog li > span {
+	width: 180px;
+	display: inline-block;
+}
+
+#advancedSettingsDialog .modal-dialog {
+	height: 600px;
+	width: 820px;
+}
+
+#advancedSettingsDialogTabs {
+	margin: 0 30px;
+}
+
+#advancedSettingsDialogTabs li.tab-header {
+	margin-right: 30px;	
+	padding-bottom: 13px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#advancedSettingsDialogTabs li.tab-header.tab-header-active {
+	border-bottom: 3px solid #e3426c;
+}
+
+#advancedSettingsDialogTabs li.tab-header a {
+	color: #c0c0c0; 
+}
+
+#advancedSettingsDialogTabs li.tab-header.tab-header-active a {
+	color: #e3426c; 
+}
+
+#advancedSettingsDialog .modal-body {
+	width: 100%;
+	height: 480px;
+	overflow: hidden;
+}
+
+#advancedSettingsDialogFileTypesLeftColumn {
+	float: left; 
+	width: 165px; 
+	border-right: 1px solid #CCC; 
+	height: 384px; 
+	margin-right: 5px;
+}
+
+#advancedSettingsDialogFileTypesRightColumn {
+	float: left; 
+	width: 605px; 
+	height: 384px; 
+	padding: 10px;
+}
+
+#advancedSettingsDialogFileTypesRightColumn .tab-element {
+	overflow-y: auto;
+	overflow-x: hidden;
+	height: 300px;
+}
+
+ul.verticalTabs {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ui-selectmenu-button.ui-widget.ui-selectmenu-small {
+	height: 25px;
+}
+
+.ui-selectmenu-button.ui-widget.ui-selectmenu-light {
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	background-color: white;
+	background-image: url('icons/combo_normal_light.png');
+	margin-right: 5px;
+	position: relative;
+	bottom: 3px;
+}
+
+.ui-selectmenu-button.ui-widget.ui-selectmenu-minimal {
+	font-size: small;
+	border: 1px solid #CCC;
+	border-radius: 2px;
+	background-color: white;
+	background-image: url('icons/combo_normal_light.png');
+	padding-right: 17px;
+	margin-right: 5px;
+}
+
+.ui-selectmenu-small.ui-selectmenu-button span.ui-selectmenu-text {
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: small;
+	width: 140px;
+}
+
+/*#dragandrophandler
+{
+border: 2px dotted #E3426C;
+width: 497px;
+height: 190px;
+color: #92AAB0;
+font-size: 16px;
+text-align: left;vertical-align:middle;
+padding: 10px 10px 10px 10px;
+margin-top: 40px;
+}
+*/
+
+#advancedSettingsDialogFileTypesTabs {
+	position: relative;
+	left: -5px;
+}
+
+#advancedSettingsDialogFileTypesTabs li {
+	padding: 10px;
+}
+
+#advancedSettingsDialogFileTypesTabs li:hover {
+	background-color: #d9d9d9;
+	cursor: pointer;
+}
+
+#advancedSettingsDialogFileTypesTabs li.tab-header a {
+	color: #333333; 
+}
+
+#advancedSettingsDialogFileTypesTabs li.tab-header.tab-header-active {
+	/*background: linear-gradient(to right, #e3426c 60%, rgba(255,0,0,0));*/
+	background: #e3426c;
+	color: #ffffff; 
+}
+
+#advancedSettingsDialogFileTypesTabs li.tab-header.tab-header-active a {
+	color: #ffffff; 
+}
+
+#advancedSettingsDialogFileTypesToolbar {
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+ul.fileTypesList, 
+ul.extractedPartsList, 
+ul.advancedSettingsConfigurationList, 
+ul.theftSettingsConfigurationList, 
+ul.generalSettingsConfigurationList, 
+ul.exportConfigurationList 
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;	
+}
+
+ul.fileTypesList > li, 
+ul.extractedPartsList > li, 
+ul.advancedSettingsConfigurationList > li,
+ul.theftSettingsConfigurationList > li,
+ul.generalSettingsConfigurationList > li,
+ul.exportConfigurationList > li 
+{
+	padding-bottom: 20px;
+}
+
+ul.fileTypesList > li:not(:last-child), 
+ul.extractedPartsList >  li:not(:last-child), 
+ul.advancedSettingsConfigurationList > li:not(:last-child),
+ul.theftSettingsConfigurationList > li:not(:last-child),
+ul.generalSettingsConfigurationList > li:not(:last-child),
+ul.exportConfigurationList > li:not(:last-child)
+{
+	border-bottom: 1px dotted #b5b5b5;
+	margin-bottom: 20px;
+}
+
+ul.advancedSettingsConfigurationList > li(:first-child),
+ul.theftSettingsConfigurationList > li(:first-child),
+ul.generalSettingsConfigurationList > li(:first-child),
+ul.exportConfigurationList > li(:first-child) 
+{
+	margin-top: 20px;
+	border-top: 1px dotted #b5b5b5;
+}
+
+ul.fileTypesList li {
+	font-size: small;
+}
+
+ul.fileTypesList li > span.fileTypeExtension
+{
+	color: #333333;
+	display: inline-block;
+	width: 80px;
+}
+span.originalFileOption
+{
+	color: #333333;
+	display: inline-block;
+	width: 120px;
+}
+
+input.smallInput
+{
+	width: 120px;
+	display: inline-block;
+}
+
+.fileTypeDescription {
+	display: inline-block;
+}
+
+#extractedPartsListContainer {
+	overflow: auto;
+	height: 350px;
+}
+
+.extractedPartSelectorWrapper {
+	display: inline-block;
+	width: 650px;
+}
+
+#extractedPartsListHeader {
+	margin-bottom: 10px;
+}
+
+#extractedPartsListHeader > span {
+	display: inline-block;
+	margin-left: 650px;
+}
+
+.extractedPartsList li {
+	font-size: small;
+}
+
+.extractedPartRiskLevel {
+	display: inline-block;
+	width: 100px;
+}
+
+.extractedPartRiskLevel-1:after {
+	content: "1";
+	background-color: lightgreen;
+	color: white;
+	margin-left: 15px;
+	padding: 1px 5px;
+	border-radius: 2px;	
+}
+
+.extractedPartRiskLevel-2:after {
+	content: "2";
+	background-color: gold;
+	color: white;
+	margin-left: 15px;
+	padding: 1px 5px;
+	border-radius: 2px;	
+}
+
+.extractedPartRiskLevel-3:after {
+	content: "3";
+	background-color: orange;
+	color: white;
+	margin-left: 15px;
+	padding: 1px 5px;
+	border-radius: 2px;	
+}
+
+.extractedPartRiskLevel-4:after {
+	content: "4";
+	background-color: darkorange;
+	color: white;
+	margin-left: 15px;
+	padding: 1px 5px;
+	border-radius: 2px;	
+}
+
+.extractedPartRiskLevel-5:after {
+	content: "5";
+	background-color: red;
+	color: white;
+	margin-left: 15px;
+	padding: 1px 5px;
+	border-radius: 2px;	
+}
+
+.extractedPartNote {
+	display: inline-block;
+	font-style: italic;
+	color: #868686;
+}
+
+.noOverflow {
+	overflow: hidden;
+}
+
+.ui-tooltip-content {
+	font-size: small;
+}
+
+/*
+input[type="text"].withClearButton:after {
+	display: inline-block;
+	content: 'X';
+}
+*/
+/*
+#testSettingsDialog .dropzone {
+	border: dashed #CCC;
+	min-height: 150px;
+}
+
+#testSettingsDialog .dropzone .dz-message {
+	font-size: small;
+	text-align: center;
+}
+*/
+
+#testSettingsDialog .modal-dialog {
+	height: 320px;
+	width: 780px;
+}
+
+/* Toggle element, thanks https://proto.io/freebies/onoff/ */
+
+.onoffswitch {
+    position: relative; 
+    width: 80px;
+    -webkit-user-select:none; 
+    -moz-user-select:none; 
+    -ms-user-select: none;
+}
+.onoffswitch-checkbox {
+    display: none;
+}
+.onoffswitch-label {
+	display: block; 
+	overflow: hidden; 
+	cursor: pointer;
+	border: none;
+	border-radius: 20px;
+}
+.onoffswitch-inner {
+    display: block; 
+    width: 200%; 
+    margin-left: -100%;
+    transition: margin 0.15s ease-in 0s;
+}
+.onoffswitch-inner:before, .onoffswitch-inner:after {
+    display: block; 
+    float: left; 
+    width: 50%; 
+    height: 30px; 
+    padding: 0; 
+    line-height: 30px;
+    font-size: 14px; 
+    color: white; 
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.onoffswitch-inner:before {
+    content: "ON";
+    font-size: 14px;
+    padding-left: 12px;
+    background-color: #56B40A; 
+    color: #FFFFFF;
+}
+.onoffswitch-inner:after {
+    content: "OFF";
+    font-size: 14px;
+    padding-right: 15px;
+    background-color: #7E7E7E; 
+    color: #DFDFDF;
+    text-align: right;
+}
+.onoffswitch-switch {
+	display: block; 
+	width: 36px; 
+	margin: -2.5px;
+	background: #D6D6D6;
+	position: absolute; 
+	top: 0; 
+	bottom: 0;
+	right: 56px;
+	border: none;
+	border-radius: 20px;
+	transition: all 0.15s ease-in 0s; 
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+    margin-left: 0;
+}
+.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
+    right: 0px; 
+}
+
+/* /toggle elements */
+
+#advancedSettingsDialogTabs-parts .selectionHelper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.selectionHelper span, .selectionHelper span a {
+	color: #333333;
+}
+
+.selectionHelper span:not(:last-child):after {
+	content: " | ";
+}
+
+.ui-dialog .ui-dialog-titlebar {
+	height: 60px;
+	border-radius: 0;
+	padding-bottom: 0;
+}
+
+.ui-dialog .ui-dialog-titlebar:after {
+	content: "";
+	width: 100%;
+	height: 15px;
+	border-bottom: 1px solid #e3426c;	
+}
+
+
+.ui-dialog .ui-dialog-title {
+    display: inherit;
+    font-size: 18px;
+    padding-top: 18px;
+    font-weight: normal;
+}
+
+/* Modal dialogs support */
+
+/* The ":before" part is used to create page overlay when the dialog is shown */
+.modal.modal-shown:before {
+	content: "";
+	display: none;
+	background: rgba(0, 0, 0, 0.7);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+.modal.modal-shown:before {
+	display: block;
+}
+
+.modal.modal-shown .modal-dialog {
+	/*
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+	*/
+	top: 50%;
+	visibility: visible;
+}
+
+.modal-dialog {
+	background: #fefefe;
+	border: #333333 solid 1px;
+	border-radius: 5px;
+	position: fixed;	
+	top: -100%;
+	z-index: 11;
+	left: 50%;
+	visibility: hidden;
+
+	/* TODO: Nice animation
+	-webkit-transform: translate(0, -500%);
+	-ms-transform: translate(0, -500%);
+	transform: translate(0, -500%);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-moz-transition: -moz-transform 0.3s ease-out;
+	-o-transition: -o-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+	*/
+}
+.modal-body {
+	padding: 20px;
+}
+.modal-header,
+.modal-footer {
+	padding: 10px 0;
+	margin: 0px 20px;
+	height: 60px;
+}
+.modal-header {
+	border-bottom: #e3426c solid 1px;
+}
+
+.modal-header h2 {
+	font-size: 18px;
+	padding: 10px 0px;
+	margin: 0;
+	display: inline-block;
+}
+
+.modal-header a.modal-dialog-exit {
+	float: right;
+	display: inline-block;
+	font-size: 14px;
+	padding: 12px 0px;
+	margin: 0;
+	font-size: 14px;
+	text-decoration: none;
+	color: #cecece;
+}
+
+p.modal-sub-header {
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.modal-footer {
+	border-top: #eeeeee solid 1px;
+	text-align: right;
+}
+
+/* Feedback page */
+
+.infoBox {
+	background-color: rgb(240,248,255); 
+	padding: 1em;
+}
+
+.infoBox h4 {
+	background: url(icons/i-icon.png) left no-repeat;
+	background-size: 16px 16px;
+	margin-top: 0;
+	padding-left: 25px;
+}
+
+.infoBox p {
+	padding-right: 25px;
+	padding-left: 25px;
+	font-size: 14px;
+}
+
+.secondaryTitle {
+	font-size: 18px;
+	color: #333333;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#aboutPageLinks {
+	margin-top: 40px;
+}
+
+#aboutPageLinks ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#aboutPageLinks ul li {
+	margin-bottom: 5px;
+}
+
+#aboutPageLinks ul li a{
+	font-size: 14px;
+}
+
+#fileTypesShowMoreDialog .modal-dialog {
+	height: 600px;
+	width: 700px;
+}
+
+#fileTypesShowMoreDialog .modal-body {
+	width: 100%;
+	height: 480px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#fileTypesTable {
+	border-spacing: 0;
+    border-collapse: separate;
+}
+
+#fileTypesTable tr th {
+	border: 1px solid #ccc;
+}
+
+#fileTypesTable tr td {
+	border: 1px solid #e2e2e2;
+}
+
+#urlfCatsEditDialog .modal-dialog {
+	height: 600px;
+	width: 815px;
+}
+
+#urlfCatsEditDialog .modal-body {
+	width: 100%;
+	height: 480px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#urlfEditCatsTable {
+	border-spacing: 0;
+    border-collapse: separate;
+}
+
+#urlfEditCatsTable tr td {
+	border: 1px solid #e2e2e2;
+}
+
+#urlfCatsBlockedDialog .modal-dialog {
+	width: 750px;
+	height: 430px;
+}
+
+#urlfCatsBlockedDialog .modal-body {
+	height: 300px;
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+#urlfBlockedCatsTable {
+	border-spacing: 0;
+    border-collapse: separate;
+}
+
+#urlfBlockedCatsTable tr td {
+	border: 1px solid #e2e2e2;
+}
+
+#urlfSettingsDialog .modal-dialog {
+	height: 455px;
+	width: 820px;
+}
+
+#urlfSettingsDialogTabs {
+	margin: 0 30px;
+}
+
+#urlfSettingsDialogTabs li.tab-header {
+	margin-right: 10px;	
+	padding-bottom: 13px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+#urlfSettingsDialogTabs li.tab-header.tab-header-active {
+	border-bottom: 3px solid #e3426c;
+}
+
+#urlfSettingsDialogTabs li.tab-header a {
+	color: #c0c0c0; 
+}
+
+#urlfSettingsDialogTabs li.tab-header.tab-header-active a {
+	color: #e3426c; 
+}
+
+#urlfSettingsDialogDialog .modal-body {
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+
+#urlfSettingsDialogTabs-parts .selectionHelper {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

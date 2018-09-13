@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "1 tunti sitten"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "1 minuutti sitten"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "Keskeytä lataus"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "Keskeytä tarkastus, luotan tähän sivustoon"
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "Käytät tätä lomaketta ensimmäistä kertaa.\nZero Phishing tarkastaa sen nyt."
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "Pääsy tiedostoon on estetty"
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "Sivuston osoite on epäilyttävä"
+   },
+   "LOCALE_AGO": {
+      "message": "sitten"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "Odotetaan tiedoston tarkastusta"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "Estetty"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Estetty Zero Phishing:n toimesta"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "Auta minua vaihtamaan salasana"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "Sivustolla on epäilyttäviä phisfing-sivuston piirteitä"
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "Puhdistus suoritettu"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "Voit sulkea tämän välilehden ja jatkaa työskentelyä.\u003Cbr>Jos sait tämän ilmoituksen virheellisesti,&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "Kerää lokit"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "Palvelimeen ei saatu yhteyttä"
+   },
+   "LOCALE_DAYS": {
+      "message": "päivää"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "Älä näytä tätä uudelleen"
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": "Ladattu tiedosto on haitallinen"
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "Ladataan tiedostoa"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "Lataus peruutettu"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "Virhe: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "Virhe alkuperäisen tiedoston lataamisessa"
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "Tiedoston puhdistus epäonnistui"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "Tiedoston lataus epäonnistui"
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "Tiedoston tarkastus epäonnistui"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "Tiedoston lataus tarkastettavaksi ei onnistunut"
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "Ladattiin alkuperäinen tiedosto"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Tiedosto on liian suuri tarkastettavaksi"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "Tiedosto on suojattu salasanalla"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "Tiedosto on suojattu salasanalla ja täten kielletty"
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Tiedosto saattaa sisältää riskejä koska on liian suuri tarkastettavaksi"
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "Tiedostotyyppi on kielletty"
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "Mahdollisesti haitallinen sisältö poistettiin tiedostosta"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "Tiedosto muunnettiin PDF-muotoon"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "Yrityksen tietoturvapolitiikan mukaan tiedosto muunnetaan PDF-muotoon tietoturvariskien välttämiseksi"
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "Tiedoston tarkastus päättyi"
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "Hae alkuperäinen"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "Piilota yksityiskohdat"
+   },
+   "LOCALE_HOURS": {
+      "message": "tuntia"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "Pitääksesi tilisi turvassa ja käytettävissä, tulisi sinun\u003Cbr>\u003Cb>vaihtaa yrityssalasanasi välittömästi.\u003C/b>"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "Inspection service is not available"
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "Palvelimelle on asennettava korjauspäivistys, katso sk108695"
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "API-avain ei ole voimassa, ole hyvä ja tarkista tilauksesi"
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "viime viikolla"
+   },
+   "LOCALE_LOADING": {
+      "message": "Ladataan"
+   },
+   "LOCALE_MINUTES": {
+      "message": "minuuttia"
+   },
+   "LOCALE_NOW": {
+      "message": "Nyt"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "Latauksia ei löytynyt"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "Palvelinta ei ole määritelty"
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "Uhkia ei löydetty"
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "Offline-sivusto pyytää arkaluostoisia tietoja"
+   },
+   "LOCALE_OPTIONS": {
+      "message": "Valinnat"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "Selainlaajennusta hallitaan keskitetysti."
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "Lisenssi ei ole voimassa"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "Alkuperäinen tiedosto on haitallinen"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "Alkuperäinen tiedosto on haitallinen ja pääsy siihen on estetty"
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "Alkuperäisen tiedoston lataaminen estettiin"
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "Alkuperäinen tiedosto ladataan kun tarkastus on valmis"
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "Läpäisi tarkastuksen"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "Yrityssalasanaasi (used in \u003Cspan id='cor'>\u003C/span>) on juuri käytetty yrityksen ulkopuolisella sivustolla\u003Cspan id='non'>\u003C/span>.\u003Cbr> Sen käyttö muilla sivustoilla on riski ja täten kielletty."
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "Yrityssalasana on vaarantunut"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "Päästäksesi oikealle sivustolle on suositeltua käyttää hakukonetta.\u003Cbr>Jos ymmärrät riskit, voit \u003Ca id='continueLink' href='#'>vierailla tällä haitallisella sivustolla.\u003C/a>\u003Cbr>This action will be audited."
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "Lisätietoja"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp>Tämä kalastelusivusto saattaa \u003Cb>esittää\u003C/b> olevansa \u003Cb id='siteDomain'>toinen sivusto\u003C/b>.\u003C/p>\u003Cp>\u003Ca href='http://fi.wikipedia.org/wiki/Phishing'>Kalastelusivustot\u003C/a> yrittävät \u003Cb>varastaa tietojasi\u003C/b>\u003Cbr>(esim. salasanoja tai luottokorttien numeroita).\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "jos tämä ei pidä paikkaansa,"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "Viittaus"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Suojaa identiteettivarkauksilta phisfing-sivustoilla."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "Tietojenkalastelu on rikollista toimintaa, jolla pyritään saamaan haltuun luottamuksellisia tietoja, kuten henkilö- tai tilitietoja, esiintymällä tiedon saantiin oikeutettuna tahona. ZoneAlarm Anti-Phishing tarkastaa verkkosivustot ennen kuin antaa sinun syöttää henkilökohtaisia tietoja ja ilmoittaa jos sivusto vaikuttaa kalastelusivustolta. Suosittelemme vahvasti että pidät ZoneAlarm Anti-Phishing:n päälle kytkettynä jotta välttyisit kalasteluyrityksiltä."
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "lähetä raportti"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "lähetä raportti ja jatka"
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "Otsikko"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "Varoitus! Pääsy petolliselle sivustolle estettiin"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "Ole hyvä ja ota yhteyttä pääkäyttäjään"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "Yrityksen tietoturvapolitiikan mukaan tiedostosta poistetaan mahdollisesti haitallisia osia"
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": ". "
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "Tilaus ei ole enää voimassa"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "Poista sivusto luotetuista sivustoista"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "Ilmoita ettei tämä sivusto pyytänyt arkaluontoisia tietoja"
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "Sivusto kuuluu luokkaan \u003Ci>Malicious/Phishing\u003C/i>"
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "Sivusto muistuttaa sivua %alleged_domain%"
+   },
+   "LOCALE_RETRY": {
+      "message": "Yritä uudelleen"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Tallenna tiedosto ilman Threat Extraction:ia"
+   },
+   "LOCALE_SCANNING": {
+      "message": "Tarkatetaan"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Tarkastetaan Zero Phishing:n toimesta"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "Tarkastetaan tiedostoa uhkien varalta"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "Tarkastus päättyi"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "Tarkasta sivusto"
+   },
+   "LOCALE_SECONDS": {
+      "message": "sekuntia"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "Ladataan turvallisesti..."
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "Lähetä palautetta"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "lähetä raportti ja jatka"
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "Palvelin ei vastannut odotetun ajan puitteissa"
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "Palvelin palautti odottamattoman vastauksen"
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "Näytä kansiossa"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "Näytä vähemmän"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "Näytä lisää"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "Asennus onnistui"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Check Point SandBlast Agent for Browsers"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "Näytä suojattu versio sivustosta"
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "Yritä uudelleen jos luotat sivustoon"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "Sivusto on uusi tai täysin tuntematon"
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "Turvaton sivusto pyytää arkaluostoisia tietoja"
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "Varoitus! Kaikki tänne syötetty tieto voi olla muiden käyttäjien nähtävissä. (ei HTTPS sivusto)"
+   },
+   "LOCALE_USED_IN": {
+      "message": "käytetään"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "UserCheck-portaaliin ei saatu yhteyttä"
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "Käytetään oletussalasanaa"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Varmistettu Zero Phishing:n toimesta"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "Näytä tiedosto"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "Varoitus! Käytät yleistä heikkoa salasanaa"
+   },
+   "LOCALE_WEEKS": {
+      "message": "viikkoa"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "eilen"
+   }
+}

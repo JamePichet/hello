@@ -1,0 +1,347 @@
+{
+   "LOCALE_1_HOUR_AGO": {
+      "message": "för 1 timme sedan"
+   },
+   "LOCALE_1_MINUTE_AGO": {
+      "message": "för 1 minut sedan"
+   },
+   "LOCALE_ABOART_DOWNLOAD": {
+      "message": "Avbryt nedladdning"
+   },
+   "LOCALE_ABOART_SCAN_I_TRUST_THIS_SITE": {
+      "message": "Avbryt scanning. Jag liter på webbplatsen."
+   },
+   "LOCALE_ACCESSING_THIS_FORM_FOR_THE_FIRST_TIME_ZERO_PHISHING_WILL_SCAN_IT_ONLY_ONCE": {
+      "message": "Åtkomst till formuläret för första gången.\nZero Phishing skannar det endast en gång."
+   },
+   "LOCALE_ACCESS_TO_FILE_HAS_BEEN_BLOCKED": {
+      "message": "Tillgång till fil har stoppats"
+   },
+   "LOCALE_ADDRESS_INDICATOR": {
+      "message": "Webbplatsens adress är skum"
+   },
+   "LOCALE_AGO": {
+      "message": "sedan"
+   },
+   "LOCALE_AWAITING_FILE_INSPECTION": {
+      "message": "Inväntar filinspektion"
+   },
+   "LOCALE_BLOCKED": {
+      "message": "Blockerad"
+   },
+   "LOCALE_BLOCKED_BY_ZERO_PHISHING": {
+      "message": "Blockerad av Zero Phishing"
+   },
+   "LOCALE_CHANGE_PASSWORD": {
+      "message": "Hjälp mig att byta lösenord"
+   },
+   "LOCALE_CHARACTERISTICS_INDICATOR": {
+      "message": "Webbplatsen har misstänkta phishing egenskaper"
+   },
+   "LOCALE_CLEAR_COMPLETED_DOWNLOADS": {
+      "message": "Rensa"
+   },
+   "LOCALE_CLOSE_TAB": {
+      "message": "Du kan stänga den här fliken och fortsätta arbeta.\u003Cbr>Om du fått det här meddelandet av misstag,&nbsp;"
+   },
+   "LOCALE_COLLECT_LOGS": {
+      "message": "Samla loggar"
+   },
+   "LOCALE_COULD_NOT_CONTACT_SERVER": {
+      "message": "Kan inte kontakta server"
+   },
+   "LOCALE_DAYS": {
+      "message": "dagar"
+   },
+   "LOCALE_DONT_SHOW_AGAIN": {
+      "message": "Visa inte det här igen"
+   },
+   "LOCALE_DOWNLOADED_FILE_IS_MALICIOUS": {
+      "message": "Den hämtade filen är skadlig"
+   },
+   "LOCALE_DOWNLOADING_FILE": {
+      "message": "Hämta fil"
+   },
+   "LOCALE_DOWNLOAD_CANCELLED": {
+      "message": "Nedladdning avbruten"
+   },
+   "LOCALE_ERROR_COLON": {
+      "message": "Fel: "
+   },
+   "LOCALE_ERROR_GETTING_ORIGINAL_FILE": {
+      "message": "Fel vid hämtning av originalfilen"
+   },
+   "LOCALE_FAILED_TO_CLEAN_FILE": {
+      "message": "Misslyckats att rensa filen"
+   },
+   "LOCALE_FAILED_TO_DOWNLOAD_FILE": {
+      "message": "Misslyckats med filnedladdning"
+   },
+   "LOCALE_FAILED_TO_INSPECT_FILE": {
+      "message": "Misslyckats med filinspektion"
+   },
+   "LOCALE_FAILED_TO_UPLOAD_FILE_FOR_INSPECTION": {
+      "message": "Misslyckats att överföra fil för inspektion"
+   },
+   "LOCALE_FILE_DOWNLOADED": {
+      "message": "Originalfilen har hämtats"
+   },
+   "LOCALE_FILE_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Filen överskrider maximal inspektionstorlek"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED": {
+      "message": "Filen är lösenordskyddad"
+   },
+   "LOCALE_FILE_IS_PASSWORD_PROTECTED_AND_THEREFORE_PROHIBITED": {
+      "message": "Filen är lösenordskyddad och därför förbjuden"
+   },
+   "LOCALE_FILE_MAY_CONTAIN_RISKS_AS_IT_EXCEEDS_MAXIMUM_INSPECTION_SIZE": {
+      "message": "Filen kan innebära en risk då den överskrider maximal inspektionstorlek"
+   },
+   "LOCALE_FILE_TYPE_IS_PROHIBITED": {
+      "message": "Filtypen är förbjuden"
+   },
+   "LOCALE_FILE_WAS_CLEANED": {
+      "message": "Eventuella skadliga delar togs bort från filen"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF": {
+      "message": "Filen konverterades till PDF"
+   },
+   "LOCALE_FILE_WAS_CONVERTED_TO_PDF_TO_REMOVE_SECURITY_RISKS": {
+      "message": "Baserat på företagspolicy, filen konverterades till PDF för att avlägsna säkerhetsrisker"
+   },
+   "LOCALE_FINISHED_SCANNING_FILE": {
+      "message": "Skanning av fil klar"
+   },
+   "LOCALE_GET_ORIGINAL": {
+      "message": "Hämta originalet"
+   },
+   "LOCALE_HIDE_DETAILS": {
+      "message": "Göm detaljer"
+   },
+   "LOCALE_HOURS": {
+      "message": "timmar"
+   },
+   "LOCALE_IMMEDIATELY_CHANGE_YOUR_CORPORATE_PASSWORD": {
+      "message": "För att hålla ditt konto säkert och tillgänglight bör du\u003Cbr>\u003Cb>omedelbart ändra ditt företagslösenord.\u003C/b>"
+   },
+   "LOCALE_INSPECTION_SERVICE_IS_NOT_AVAILABLE": {
+      "message": "Inspektiontjänsten är inte tillgänglig"
+   },
+   "LOCALE_INSTALLING_A_HOTFIX_IS_REQUIRED": {
+      "message": "Installation av hotfix på servern krävs, vänligen se sk108695"
+   },
+   "LOCALE_INVALID_API_KEY": {
+      "message": "API nyckeln är ogiltig, vänligen kontrollera din prenumeration"
+   },
+   "LOCALE_LAST_WEEK": {
+      "message": "förra veckan"
+   },
+   "LOCALE_LOADING": {
+      "message": "Laddar"
+   },
+   "LOCALE_MINUTES": {
+      "message": "minuter"
+   },
+   "LOCALE_NOW": {
+      "message": "Nu"
+   },
+   "LOCALE_NO_DOWNLOADS_FOUND": {
+      "message": "Inga nedladdningar hittades"
+   },
+   "LOCALE_NO_SERVER_CONFIGURED": {
+      "message": "Ingen server är konfigurerad"
+   },
+   "LOCALE_NO_THREATS_WERE_FOUND": {
+      "message": "Inga hot hittades"
+   },
+   "LOCALE_OFFLINE_INDICATOR": {
+      "message": "Offline sida frågar efter känslig information"
+   },
+   "LOCALE_OPTIONS": {
+      "message": "Alternativ"
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE": {
+      "message": "Din webbplugin är centralt administrerad."
+   },
+   "LOCALE_OPTIONS_DISABLED_STATE_ZA": {
+      "message": "Licensen är ogiltig"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS": {
+      "message": "Originalfilen är skadlig"
+   },
+   "LOCALE_ORIGINAL_FILE_IS_MALICIOUS_AND_CANNOT_BE_ACCESSED": {
+      "message": "Originalfilen är skadlig och kan inte nås"
+   },
+   "LOCALE_ORIGINAL_FILE_WAS_BLOCKED": {
+      "message": "Originalfilen stoppades"
+   },
+   "LOCALE_ORIGINAL_FILE_WILL_BE_DOWNLOADED_ONCE_FILE_INSPECTION_IS_COMPLETED": {
+      "message": "Originalfilen laddas ner när filinspektionen är genomförd"
+   },
+   "LOCALE_PASSED_SCAN": {
+      "message": "Passerat skanning"
+   },
+   "LOCALE_PASSWORD_REUSE_DOMAINS": {
+      "message": "Ditt företagslösenord(använt i \u003Cspan id='cor'>\u003C/span>) har just exponerats för en webbplats utanför företaget\u003Cspan id='non'>\u003C/span>.\u003Cbr> Användning av ditt företagslösenord mot andra webbplatser är riskabelt och förbjudet."
+   },
+   "LOCALE_PASSWORD_REUSE_TITLE": {
+      "message": "Företagslösenord exponeras"
+   },
+   "LOCALE_PHISHING_ACCESS_SITE": {
+      "message": "För att få tillgångn till den riktiga webbplatsen, rekommenderas att använda en sökmotor.\u003Cbr>Om du förstår riskerna, kan du \u003Ca id='continueLink' href='#'>besöka den här webbplatsen.\u003C/a>\u003Cbr>Den här åtgärden kommer granskas."
+   },
+   "LOCALE_PHISHING_DETAILS": {
+      "message": "Detaljer"
+   },
+   "LOCALE_PHISHING_DOMAINS": {
+      "message": "\u003Cp>Den här phishing webbplatsen kan \u003Cb>låtsas\u003C/b> vara \u003Cb id='siteDomain'>en annan webbplats\u003C/b>.\u003C/p>\u003Cp>\u003Ca href='http://en.wikipedia.org/wiki/Phishing'>Phishing webbsidor\u003C/a> försöker lura dig till att \u003Cb>stjäla din information\u003C/b>\u003Cbr>(till exempel, lösenord eller kreditkort).\u003C/p>"
+   },
+   "LOCALE_PHISHING_INCORRECT": {
+      "message": "Om det här är felaktigt,"
+   },
+   "LOCALE_PHISHING_REFERENCE": {
+      "message": "Referens"
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION": {
+      "message": "Skydd mot stöld av identitet från phishing webbplatser."
+   },
+   "LOCALE_PHISHING_SECTION_DESCRIPTION_ZA": {
+      "message": "Phishing är ett försök att få tillgång till känslig information såsom användarnamn, lösenord och kreditkortsdetaljer, genom att utge sig att vara en pålitlig webbplats. ZoneAlarm Anti-Phishing kommer skanna webbplatsen innan du ges möjlighet att infoga någon privat information och kommer meddela dig huruvida det är en äkta webbplats eller om det är ett phishing försök. Vi rekommenderar starkt att du behåller ZoneAlarm Anti-Phishing påslaget för att undvika bli utsatt för phishing angrepp"
+   },
+   "LOCALE_PHISHING_SEND_REPORT": {
+      "message": "skicka en rapport"
+   },
+   "LOCALE_PHISHING_SEND_REPORT_AND_CONTINUE": {
+      "message": "skicka en rapport och fortsätt"
+   },
+   "LOCALE_PHISHING_SITE_TITLE": {
+      "message": "Titel"
+   },
+   "LOCALE_PHISHING_TITLE": {
+      "message": "Akta dig! Vilseledande webbplats blockerad"
+   },
+   "LOCALE_PHISHING_URL": {
+      "message": "URL"
+   },
+   "LOCALE_PLEASE_CONTACT_YOUR_ADMINISTRATOR": {
+      "message": "Vänligen kontakta din administratör"
+   },
+   "LOCALE_POPUP_TITLE": {
+      "message": "Check Point SandBlast"
+   },
+   "LOCALE_POTENTIALLY_MALICIOUS_ELEMENTS_WERE_REMOVED_FROM_THIS_FILE": {
+      "message": "Baserat på företagspolicy, eventuella skadliga element togs bort från den här filen"
+   },
+   "LOCALE_PUNCTUATION_FULL_STOP": {
+      "message": ". "
+   },
+   "LOCALE_QUOTA_SUBSCRIPTION_EXPIRED": {
+      "message": "Din kvot av prenumerationen är slut"
+   },
+   "LOCALE_REMOVE_SITE_FROM_TRUSTED_SITES": {
+      "message": "Ta bort webbplats från betrodda webbplatser"
+   },
+   "LOCALE_REPORT_INCORRECT_PII": {
+      "message": "Rapportera att webbplatsen inte begär känslig information"
+   },
+   "LOCALE_REPUTATION_INDICATOR": {
+      "message": "Webbplatsen är klassificerad som \u003Ci>Malicious/Phishing\u003C/i>"
+   },
+   "LOCALE_RESEMBLANCE_INDICATOR": {
+      "message": "Webbplats har likhet med %alleged_domain%"
+   },
+   "LOCALE_RETRY": {
+      "message": "Försök igen"
+   },
+   "LOCALE_SAVE_FILE_WITHOUT_TEX": {
+      "message": "Spara fil utan Threat Extraction"
+   },
+   "LOCALE_SCANNING": {
+      "message": "Skannar"
+   },
+   "LOCALE_SCANNING_BY_ZERO_PHISHING": {
+      "message": "Skannas av Zero Phishing"
+   },
+   "LOCALE_SCANNING_FILE_FOR_THREATS": {
+      "message": "Skannar filen efter hot"
+   },
+   "LOCALE_SCAN_FINISHED": {
+      "message": "Skanning avslutad"
+   },
+   "LOCALE_SCAN_SITE": {
+      "message": "Skanna webbplats"
+   },
+   "LOCALE_SECONDS": {
+      "message": "sekunder"
+   },
+   "LOCALE_SECURELY_DOWNLOADING": {
+      "message": "Hämtas säkert..."
+   },
+   "LOCALE_SEND_FEEDBACK": {
+      "message": "Skicka feedback"
+   },
+   "LOCALE_SEND_REPORT": {
+      "message": "Skicka en rapport och fortsätt"
+   },
+   "LOCALE_SERVER_DID_NOT_REPLY_IN_A_TIMELY_MANNER": {
+      "message": "Servern svarade inte inom tidsramen"
+   },
+   "LOCALE_SERVER_RETURNED_AN_UNEXPECTED_RESPONSE": {
+      "message": "Servern svarade med ett oväntat svar"
+   },
+   "LOCALE_SHOW_IN_FOLDER": {
+      "message": "Visa i mapp"
+   },
+   "LOCALE_SHOW_LESS": {
+      "message": "Visa mindre"
+   },
+   "LOCALE_SHOW_MORE": {
+      "message": "Visa mer"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED": {
+      "message": "Lyckad installation"
+   },
+   "LOCALE_SUCCESSFULLY_INSTALLED_TITLE": {
+      "message": "Check Point SandBlast Agent för webbläsare"
+   },
+   "LOCALE_SWITCH_TO_HTTPS": {
+      "message": "Ta mig till den säkra versionen av webbplatsen"
+   },
+   "LOCALE_TRY_AGAIN": {
+      "message": "Vänligen försök igen men bara om du litar på den här webbplatsen"
+   },
+   "LOCALE_UNKNOWN_INDICATOR": {
+      "message": "Webbplatsen är väldigt ny eller helt okänd"
+   },
+   "LOCALE_UNSECURED_INDICATOR": {
+      "message": "Osäker webbplats begär känslig information"
+   },
+   "LOCALE_UNSECURED_WARNING": {
+      "message": "Akta dig! All information som ges här (non HTTPS website) är läsbar av andra."
+   },
+   "LOCALE_USED_IN": {
+      "message": "Använd i"
+   },
+   "LOCALE_USERCHECK_PORTAL_NOT_ACCESSIBLE": {
+      "message": "UserCheck portalen är inte tillgänglig"
+   },
+   "LOCALE_USING_DEFAULT_PASSWORD": {
+      "message": "Användning av standardlösenord"
+   },
+   "LOCALE_VERIFIED_BY_ZERO_PHISHING": {
+      "message": "Verifierad av Zero Phishing"
+   },
+   "LOCALE_VIEW_FILE": {
+      "message": "Visa filen"
+   },
+   "LOCALE_WEAK_PASSWORD": {
+      "message": "Akta dig! Du använder ett vanligt svagt lösenord"
+   },
+   "LOCALE_WEEKS": {
+      "message": "veckor"
+   },
+   "LOCALE_YESTERDAY": {
+      "message": "i går"
+   }
+}
